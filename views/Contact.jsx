@@ -1,6 +1,6 @@
 const React = require("react");
 const Layout = require("./Layout.jsx");
-const ContactModals = require("./Contact-Modals");
+const ContactModals = require("./Contact-Modals.jsx");
 
 class Contact extends React.Component {
   render() {

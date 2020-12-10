@@ -48,27 +48,27 @@ class About extends React.Component {
                 <h5>Languages I Like:</h5>
                 <p className="subtitle">
                   <span className="highlight">
-                    <i class="fab fa-html5"></i> HTML
+                    <i className="fab fa-html5"></i> HTML
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fab fa-css3"></i> CSS
+                    <i className="fab fa-css3"></i> CSS
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fab fa-js"></i> JavaScript
+                    <i className="fab fa-js"></i> JavaScript
                   </span>
                   <br />
                   <span className="highlight">
-                    <i class="fab fa-react"></i> React
+                    <i className="fab fa-react"></i> React
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fab fa-bootstrap"></i> Bootstrap
+                    <i className="fab fa-bootstrap"></i> Bootstrap
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fab fa-node-js"></i> Node.js
+                    <i className="fab fa-node-js"></i> Node.js
                   </span>
                 </p>
                 <hr></hr>

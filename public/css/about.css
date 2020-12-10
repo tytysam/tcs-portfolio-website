@@ -13,14 +13,17 @@
   background-size: 20px 10px;
   animation: move 15s linear infinite;
   -webkit-animation: move 15s linear infinite;
-  animation-play-state: paused;
+
+  /* animation-play-state: paused; */
+  animation-play-state: running;
+
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 .page-header:hover {
-  animation-play-state: running;
+  /* animation-play-state: running; */
 }
 
 @-webkit-keyframes move {

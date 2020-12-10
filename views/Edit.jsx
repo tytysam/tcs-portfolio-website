@@ -3,58 +3,79 @@ const Layout = require("./Layout.jsx");
 
 class Edit extends React.Component {
   render() {
+    const post = this.props.post;
     return (
-      <Layout title="Edit Project" stylesheet="/css/edit.css" js="">
+      <Layout title={`Edit ${post.name}`} stylesheet="/css/edit.css" js="">
         <div className="container">
           <div className="row justify-content-center p-2">
             <div className="col-6">
-              <h1>Edit Project</h1>
+              <h1>{`Edit: ${post.name}`}</h1>
             </div>
           </div>
           <div className="row justify-content-center p-2">
             <div className="col-6">
-              <form action="XXXXXXX" method="XXXXXXX">
+              <form action={`/blog/${post._id}?_method=PUT`} method="POST">
                 <div className="form-group">
-                  <label>Project Name:</label>
-                  <input type="text" name="name" className="form-control" />
+                  <label>Blog Post Title:</label>
+                  <input
+                    type="text"
+                    name="name"
+                    value={post.name}
+                    className="form-control"
+                  />
                 </div>
                 <div className="form-group">
                   <label>Image Source:</label>
-                  <input type="text" name="img" className="form-control" />
-                </div>
-                <div className="form-group">
-                  <label>Short Description:</label>
                   <input
                     type="text"
-                    name="shortDesc"
+                    name="img"
+                    value={post.img}
                     className="form-control"
                   />
                 </div>
                 <div className="form-group">
-                  <label>Long Description:</label>
-                  <input type="text" name="longDesc" className="form-control" />
-                </div>
-                <div className="form-group">
-                  <label>Synopsis:</label>
-                  <input type="text" name="synopsis" className="form-control" />
-                </div>
-                <div className="form-group">
-                  <label>Link:</label>
-                  <input type="text" name="link" className="form-control" />
-                </div>
-                <div className="form-group">
-                  <label>Languages Used:</label>
+                  <label>Description:</label>
                   <input
                     type="text"
-                    name="languages"
+                    name="description"
+                    value={post.description}
                     className="form-control"
                   />
                 </div>
+                <div className="form-group">
+                  <label>Body (#1):</label>
+                  <input
+                    type="text"
+                    name="body1"
+                    value={post.body1}
+                    className="form-control"
+                  />
+                </div>
+                <div className="form-group">
+                  <label>Body (#2):</label>
+                  <input
+                    type="text"
+                    name="body2"
+                    value={post.body2}
+                    className="form-control"
+                  />
+                </div>
+                <div className="form-group">
+                  <label>Lorem:</label>
+                  <input
+                    type="text"
+                    name="lorem"
+                    value={post.lorem}
+                    className="form-control"
+                  />
+                </div>
+
+                {/* SUBMIT BUTTON */}
                 <div className="form-group submit-btn">
                   <input
                     type="submit"
                     name=""
-                    value="Create Project"
+                    value="Update Post"
                     className="form-control"
                   />
                 </div>

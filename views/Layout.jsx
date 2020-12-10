@@ -28,7 +28,7 @@ class Layout extends React.Component {
           <link rel="stylesheet" href={this.props.stylesheet} />
           <script
             src="https://kit.fontawesome.com/0f84f97a69.js"
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
           ></script>
         </head>
         <body>
@@ -87,8 +87,8 @@ class Layout extends React.Component {
           {this.props.children}
 
           <div className="container mt-5 pt-5" id="footer-container">
-            <nav class="navbar navbar-expand-lg navbar-light mt-3 p-3 justify-content-around">
-              <a class="navbar-brand" href="/">
+            <nav className="navbar navbar-expand-lg navbar-light mt-3 p-3 justify-content-around">
+              <a className="navbar-brand" href="/">
                 <img
                   src="/images/TCS_main.png"
                   width="80"
@@ -113,7 +113,7 @@ class Layout extends React.Component {
                   Blog
                 </a>
                 <a className="nav-item nav-link mx-5 p-2" href="#tippity-top">
-                  <i class="fas fa-arrow-up fa-sm"></i>
+                  <i className="fas fa-arrow-up fa-sm"></i>
                 </a>
               </div>
             </nav>

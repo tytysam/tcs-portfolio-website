@@ -4,23 +4,23 @@ const Layout = require("./Layout.jsx");
 class New extends React.Component {
   render() {
     return (
-      <Layout title="New Project" stylesheet="/css/new.css" js="">
+      <Layout title="New Blog Post" stylesheet="/css/new.css" js="">
         <div className="container">
           <div className="row justify-content-center p-2">
             <div className="col-6">
-              <h1>New Project</h1>
+              <h1>New Blog Post</h1>
             </div>
           </div>
           <div className="row justify-content-center p-2">
             <div className="col-6">
-              <form action="XXXXXXX" method="XXXXXXX">
+              <form action="/blog" method="POST">
                 <div className="form-group">
-                  <label>Project Name:</label>
+                  <label>Blog Post Title:</label>
                   <input
                     type="text"
                     name="name"
                     className="form-control"
-                    placeholder="ie, My New Collab with Nike"
+                    placeholder="ie, 5 Reasons Liverpool is the Greatest Team in Football"
                   />
                 </div>
                 <div className="form-group">
@@ -33,55 +33,48 @@ class New extends React.Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label>Short Description:</label>
+                  <label>Description:</label>
                   <input
                     type="text"
-                    name="shortDesc"
+                    name="description"
                     className="form-control"
-                    placeholder="ie, brief project description for display on Index"
+                    placeholder="ie, brief post description for display on Index"
                   />
                 </div>
                 <div className="form-group">
-                  <label>Long Description:</label>
+                  <label>Body (#1):</label>
                   <input
                     type="text"
-                    name="longDesc"
+                    name="body1"
                     className="form-control"
-                    placeholder="ie, longer project description for display on Show"
+                    placeholder="ie, the first part of the blog post content"
                   />
                 </div>
                 <div className="form-group">
-                  <label>Synopsis:</label>
+                  <label>Body (#2):</label>
                   <input
                     type="text"
-                    name="synopsis"
+                    name="body2"
                     className="form-control"
-                    placeholder="ie, describes my role, challenges, technologies, etc."
+                    placeholder="ie, the second part of the blog post content"
                   />
                 </div>
                 <div className="form-group">
-                  <label>Link:</label>
+                  <label>Lorem:</label>
                   <input
                     type="text"
-                    name="link"
+                    name="lorem"
                     className="form-control"
-                    placeholder="ie, Github repository link OR link to live site"
+                    placeholder="ie, Lorem ipsum, the industry standard placeholder"
                   />
                 </div>
-                <div className="form-group">
-                  <label>Languages Used:</label>
-                  <input
-                    type="text"
-                    name="languages"
-                    className="form-control"
-                    placeholder="ie, languages + libraries used within this project"
-                  />
-                </div>
+
+                {/* SUBMIT BUTTON */}
                 <div className="form-group submit-btn">
                   <input
                     type="submit"
                     name=""
-                    value="Create Project"
+                    value="Create Blog Post"
                     className="form-control"
                   />
                 </div>

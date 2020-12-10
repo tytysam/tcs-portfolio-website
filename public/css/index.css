@@ -1,10 +1,7 @@
-/* *********************************** */
-/*   ProjectsDisplay.jsx CSS BELOW    */
-/* *********************************** */
-
 .page-header {
-  margin-bottom: 10px;
-  min-width: 420px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  min-width: 500px;
 
   padding-bottom: 5px;
   background: url("/images/wave-design-yellow.svg");
@@ -31,60 +28,34 @@
 
 @-webkit-keyframes move {
   from {
-    background-position: 2px 95px;
+    background-position: 2px 88px;
   }
   to {
-    background-position: 500px 95px;
+    background-position: 500px 88px;
   }
 }
 
 @keyframes move {
   from {
-    background-position: 2px 95px;
+    background-position: 2px 88px;
   }
   to {
-    background-position: 500px 95px;
+    background-position: 500px 88px;
   }
 }
 
-/* ************************ */
-/*   ProjectCards.jsx CSS BELOW    */
-/* ************************ */
-
-.component-container {
-  display: flex;
-  justify-content: center;
-}
-
-.project-container {
+.card {
+  margin-top: 25px;
+  margin-bottom: 25px;
   border: 1px solid #202020;
-  border-radius: 8px;
-  padding: 30px;
-  margin: 25px auto;
-  width: 100%;
-  min-width: 400px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  border-radius: 5px;
 }
 
-.project-container img {
-  width: 35vw;
-  min-width: 375px;
-  margin: 10px 5px;
+.card-body {
+  background-color: #fdfbf5;
 }
 
-.project-container h2 {
-  margin-bottom: 10px;
-
-  font-family: lust-display, serif;
-  font-size: 22px;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-}
-
-#see-project-btn {
+.read-more-btn {
   box-shadow: none !important;
 
   font-family: lust-display, serif;
@@ -95,7 +66,7 @@
   background-color: transparent;
 }
 
-#see-project-btn:hover {
+.read-more-btn:hover {
   color: #fdfbf5;
   margin: 20px 15px;
   padding: 15px;

@@ -10,7 +10,8 @@ const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
 const methodOverride = require("method-override");
-const Projects = require("./models/projectData.js");
+const BlogPosts = require("./models/blogPostData.js");
+const e = require("express");
 
 // Allows use of Heroku's port OR our own
 const PORT = process.env.PORT || 3000;
@@ -28,11 +29,11 @@ app.engine("jsx", require("express-react-views").createEngine());
 // Connect to the database either via Heroku or locally
 const MONGODB_URI = process.env.MONGODB_URI;
 
-// // Connect to MongoDB
-// mongoose.connect(MONGODB_URI, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// });
+// Connect to MongoDB
+mongoose.connect(MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 // Error / Success Reporting
 mongoose.connection.on("error", (err) =>
@@ -74,47 +75,70 @@ app.get("/projects", (req, res) => {
   res.render("ProjectsDisplay");
 });
 
+// THE BOYS: SUPE-R DESTRUCTION
+app.get("/projects/the-boys", (req, res) => {
+  res.render("TheBoys");
+});
+
+// PORTFOLIO SITE ROUTE
+
+// MORE PROJECTS ***
+
 // CONTACT
 app.get("/contact", (req, res) => {
   res.render("Contact");
 });
 
 // INDEX | GET Request
-app.get("/projects", (req, res) => {
-  res.render("Index");
-  // database.find({}, (err, allProjects) => ...)
+app.get("/blog", (req, res) => {
+  BlogPosts.find({}, (err, allBlogPosts) => {
+    err ? res.send(err) : res.render("Index", { posts: allBlogPosts });
+  });
 });
 
 // NEW | GET Request
-app.get("/projects/new", (req, res) => {
+app.get("/blog/new", (req, res) => {
   res.render("New");
 });
 
 // DESTROY | DELETE Request
-app.delete("/projects/:id", (req, res) => {
-  // database.findByIdAndDelete
+app.delete("/blog/:id", (req, res) => {
+  BlogPosts.findByIdAndDelete(req.params.id, (err, deletedBlogPost) => {
+    err ? res.send(err) : res.redirect("/blog"), console.log(deletedBlogPost);
+  });
 });
 
 // UPDATE | PUT Request
-app.put("/projects/:id", (req, res) => {
-  // database.findByIdAndUpdate()
+app.put("/blog/:id", (req, res) => {
+  BlogPosts.findByIdAndUpdate(
+    req.params.id,
+    req.body,
+    { new: true },
+    (err, updatedBlogPost) => {
+      err ? res.send(err) : res.redirect("/blog");
+    }
+  );
 });
 
 // CREATE | POST Request
-app.post("/projects", (req, res) => {
-  // database.create()
+app.post("/blog", (req, res) => {
+  BlogPosts.create(req.body, (err, createdBlogPost) => {
+    err ? res.send(err) : res.redirect("/blog");
+  });
 });
 
 // EDIT | GET Request
-app.get("/projects/edit", (req, res) => {
-  res.render("Edit");
-  // database.findById()
+app.get("/blog/:id/edit", (req, res) => {
+  BlogPosts.findById(req.params.id, (err, foundBlogPost) => {
+    err ? res.send(err) : res.render("Edit", { post: foundBlogPost });
+  });
 });
 
 // SHOW | GET Request
-app.get("/projects/SHOW-TEMP", (req, res) => {
-  res.render("Show");
-  // database.findById()
+app.get("/blog/:id", (req, res) => {
+  BlogPosts.findById(req.params.id, (err, foundBlogPost) => {
+    err ? res.send(err) : res.render("Show", { post: foundBlogPost });
+  });
 });
 
 // 404: NOT FOUND

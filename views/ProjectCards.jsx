@@ -25,7 +25,7 @@ class ProjectCards extends React.Component {
               </p>
               <a
                 className="btn btn-sm btn-primary"
-                href="#"
+                href="/projects/the-boys"
                 id="see-project-btn"
               >
                 See Project Details

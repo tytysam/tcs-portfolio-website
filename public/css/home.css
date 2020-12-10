@@ -20,7 +20,10 @@ h1 {
   background-position: 2px 57px;
   animation: move 15s linear infinite;
   -webkit-animation: move 15s linear infinite;
-  animation-play-state: paused;
+
+  /* animation-play-state: paused; */
+  animation-play-state: running;
+
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -39,7 +42,7 @@ h1 {
 }
 
 .hero-container h1:hover {
-  animation-play-state: running;
+  /* animation-play-state: running; */
 }
 
 @-webkit-keyframes move {
