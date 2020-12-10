@@ -1,0 +1,84 @@
+.page-header {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  min-width: 500px;
+
+  padding-bottom: 5px;
+  background: url("/images/wave-design-yellow.svg");
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 20px 10px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+  animation-play-state: paused;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.page-header:hover {
+  animation-play-state: running;
+}
+
+@-webkit-keyframes move {
+  from {
+    background-position: 2px 110px;
+  }
+  to {
+    background-position: 500px 110px;
+  }
+}
+
+@keyframes move {
+  from {
+    background-position: 2px 110px;
+  }
+  to {
+    background-position: 500px 110px;
+  }
+}
+
+.about-me {
+  width: 100%;
+  height: 450px;
+  min-width: 40%;
+  background-image: url("/images/TCS-MachuPicchu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 15px;
+
+  border-radius: 8px;
+
+  color: #fdfbf5;
+}
+
+.about-me h2 {
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: 500;
+}
+
+.highlight {
+  /* color: #1f4a54; */
+  /* color: #ffdb58; */
+
+  padding: 5px 10px 5px 10px;
+}
+
+/*
+  color: rgb(255, 219, 88, 1);
+  background-color: rgba(31, 74, 84, 0.5);
+  transition: 200ms ease-in;
+}
+
+.highlight:hover {
+  color: rgb(31, 74, 84);
+  background-color: rgb(255, 219, 88, 0.5);
+  transition: 200ms ease-in;
+} */

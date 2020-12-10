@@ -1,0 +1,26 @@
+#content-container {
+  margin-top: 25vh;
+}
+
+#spacer-div {
+  height: 20vh;
+}
+
+p {
+  font-size: 20px;
+}
+
+p a {
+  /* color: #1f4a54; */
+  /* color: #ffdb58; */
+
+  color: rgb(255, 219, 88, 1);
+  background-color: rgba(31, 74, 84, 0.5);
+  transition: 200ms ease-in;
+}
+
+p a:hover {
+  color: rgb(31, 74, 84);
+  background-color: rgb(255, 219, 88, 0.5);
+  transition: 200ms ease-in;
+}

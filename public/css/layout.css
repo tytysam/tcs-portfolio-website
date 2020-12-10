@@ -1,0 +1,25 @@
+body {
+  background-color: #fdfbf5;
+  font-family: montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #202020;
+}
+
+.header li {
+  font-family: montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.footer a {
+  /* font-family: lust-display, serif; */
+
+  font-family: montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 8px;
+}

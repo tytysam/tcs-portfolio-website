@@ -1,0 +1,166 @@
+#contact-text-arch {
+  /* transform: translateY(-35%); */
+  position: relative;
+  top: -130px;
+  margin-top: 0px;
+}
+
+#contact-shaka {
+  /* transform: translateY(-19%); */
+  position: relative;
+  top: -320px;
+  margin-bottom: 10px;
+}
+
+#contact-banner {
+  /* transform: translateY(-180%); */
+  position: relative;
+  top: -350px;
+  margin-top: 10px;
+}
+
+#contact-banner img {
+  margin: 15px 0 10px 0;
+}
+
+#contact-banner hr {
+  width: 20%;
+  transform: translateY(-45px);
+  border-top: 3px solid #f6a800;
+}
+
+#contact-icons-row {
+  /* transform: translateY(-150%); */
+  position: relative;
+  top: -450px;
+}
+
+.icon-container h2 {
+  color: #202020;
+
+  text-align: center;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  transition: ease-in 300ms;
+}
+
+.subtitle-links {
+  text-decoration: none;
+}
+
+.subtitle-links:hover {
+  color: #f6a800;
+}
+
+.icon-container h2:hover {
+  color: #f6a800;
+  font-weight: bolder;
+  transition: ease-in 100ms;
+}
+
+.image-icon:hover {
+  cursor: pointer;
+}
+
+.made-with-love {
+  text-align: center;
+  margin: 0;
+  font-weight: 100;
+}
+
+/* 
+
+*** ANIMATIONS ***
+
+*/
+
+@keyframes shaka {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(-7deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(7deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#contact-shaka img {
+  animation-name: shaka;
+  animation-duration: 1.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+/* 
+
+*** MEDIA-SPECIFIC QUERIES ***
+
+/*
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #contact-icons-row {
+    margin: 0px;
+  }
+
+  #contact-shaka {
+    /* transform: translateY(-19%); */
+  }
+
+  #contact-banner {
+    /* translate: translateY(100%); */
+  }
+
+  #contact-banner hr {
+    margin-bottom: 0px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #contact-icons-row {
+    margin-top: 20px;
+  }
+  #contact-banner hr {
+    margin-bottom: 0px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #contact-icons-row {
+    margin-top: 30px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #contact-icons-row {
+    margin-top: 40px;
+  }
+}

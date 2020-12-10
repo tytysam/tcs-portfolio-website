@@ -1,0 +1,101 @@
+/* *********************************** */
+/*   ProjectsDisplay.jsx CSS BELOW    */
+/* *********************************** */
+
+.page-header {
+  margin-bottom: 10px;
+  min-width: 420px;
+
+  padding-bottom: 5px;
+  background: url("/images/wave-design-yellow.svg");
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 20px 10px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+  animation-play-state: paused;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.page-header:hover {
+  animation-play-state: running;
+}
+
+@-webkit-keyframes move {
+  from {
+    background-position: 2px 95px;
+  }
+  to {
+    background-position: 500px 95px;
+  }
+}
+
+@keyframes move {
+  from {
+    background-position: 2px 95px;
+  }
+  to {
+    background-position: 500px 95px;
+  }
+}
+
+/* ************************ */
+/*   ProjectCards.jsx CSS BELOW    */
+/* ************************ */
+
+.component-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-container {
+  border: 1px solid #202020;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 25px auto;
+  width: 100%;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-container img {
+  width: 35vw;
+  min-width: 375px;
+  margin: 10px 5px;
+}
+
+.project-container h2 {
+  margin-bottom: 10px;
+
+  font-family: lust-display, serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+#see-project-btn {
+  box-shadow: none !important;
+
+  font-family: lust-display, serif;
+  color: #202020;
+  margin: 20px 15px;
+  padding: 15px;
+  border: 1px solid #202020;
+  background-color: transparent;
+}
+
+#see-project-btn:hover {
+  color: #fdfbf5;
+  margin: 20px 15px;
+  padding: 15px;
+  border: 1px solid #202020;
+  background-color: #202020;
+}

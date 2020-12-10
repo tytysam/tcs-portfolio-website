@@ -1,0 +1,43 @@
+h1 {
+  font-family: lust-display, serif;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+label {
+  background-color: #fdfbf5;
+  font-family: montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  color: #202020;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  margin-top: 50px;
+}
+
+.submit-btn input {
+  font-family: lust-display, serif;
+  font-size: 20px;
+
+  height: 65px;
+  color: #202020;
+  background-color: #fdfbf5;
+  transition: ease-in 200ms;
+}
+
+.submit-btn input:hover {
+  color: #fdfbf5;
+  background-color: #202020;
+  transition: ease-in 200ms;
+}

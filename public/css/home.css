@@ -1,0 +1,90 @@
+h1 {
+  font-family: lust-display, serif;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hero-container h1 {
+  padding-bottom: 5px;
+  background: url("/images/wave-design-yellow.svg");
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 20px 10px;
+  background-position: 2px 57px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+  animation-play-state: paused;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.hero-container h1.first-name {
+  width: 185px;
+}
+
+.hero-container h1.middle-name {
+  width: 265px;
+}
+
+.hero-container h1.last-name {
+  width: 365px;
+}
+
+.hero-container h1:hover {
+  animation-play-state: running;
+}
+
+@-webkit-keyframes move {
+  from {
+    background-position: 2px 57px;
+  }
+  to {
+    background-position: 500px 57px;
+  }
+}
+
+@keyframes move {
+  from {
+    background-position: 2px 57px;
+  }
+  to {
+    background-position: 500px 57px;
+  }
+}
+
+.subtitle {
+  font-family: montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+
+  text-align: center;
+  margin-top: 25px;
+}
+
+.subtitle-bars {
+  padding: 5px 10px 5px 10px;
+}
+
+#spacer-div {
+  height: 30vh;
+}
+
+.say-hi-container {
+  border: 1px solid #202020;
+  border-radius: 10px;
+  height: 600px;
+}
+
+.say-hi-container h1 {
+  margin-top: -45px;
+  margin-bottom: 0px;
+}
