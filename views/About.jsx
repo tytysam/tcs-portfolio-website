@@ -1,11 +1,12 @@
 const React = require("react");
 const Layout = require("./Layout.jsx");
+const SayHi = require("./SayHi.jsx");
 
 class About extends React.Component {
   render() {
     return (
       <Layout title="About Me" stylesheet="/css/about.css" js="">
-        <div className="container">
+        <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-6 page-header">
               <img src="/images/About-Me.svg" />
@@ -86,6 +87,8 @@ class About extends React.Component {
             <div className="col-4"></div>
           </div>
         </div>
+        <div id="spacer-div"></div>
+        <SayHi></SayHi>
       </Layout>
     );
   }

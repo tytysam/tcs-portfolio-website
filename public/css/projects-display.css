@@ -1,6 +1,31 @@
 /* *********************************** */
 /*   ProjectsDisplay.jsx CSS BELOW    */
 /* *********************************** */
+.fade-in {
+  animation: fadeIn ease-in 1500ms;
+  -webkit-animation: fadeIn ease-in 1500ms;
+  -moz-animation: fadeIn ease-in 1500ms;
+  -o-animation: fadeIn ease-in 1500ms;
+  -ms-animation: fadeIn ease-in 1500ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .page-header {
   margin-bottom: 10px;
@@ -66,28 +91,50 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  transition: ease-in 500ms;
+}
+
+.project-container:hover {
+  box-shadow: 5px 5px 15px rgba(32, 32, 32, 0.3);
+  transition: ease-in 300ms;
 }
 
 .project-container img {
   width: 35vw;
   min-width: 375px;
   margin: 10px 5px;
+  height: auto;
+  margin-bottom: 25px;
 }
 
 .project-container h2 {
+  margin-top: -67px;
+
   margin-bottom: 10px;
 
   font-family: lust-display, serif;
-  font-size: 22px;
+  font-size: 50px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.highlight {
+  padding: 5px;
 }
 
 #see-project-btn {
   box-shadow: none !important;
 
   font-family: lust-display, serif;
+  letter-spacing: 2px;
   color: #202020;
   margin: 20px 15px;
   padding: 15px;
@@ -101,4 +148,8 @@
   padding: 15px;
   border: 1px solid #202020;
   background-color: #202020;
+}
+
+#spacer-div {
+  height: 30vh;
 }

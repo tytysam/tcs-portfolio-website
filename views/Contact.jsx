@@ -8,7 +8,7 @@ class Contact extends React.Component {
       <Layout title="Let's Chat!" stylesheet="/css/contact.css" js="">
         <ContactModals></ContactModals>
 
-        <div className="container">
+        <div className="container fade-in">
           <div
             className="row justify-content-center p-2"
             id="contact-text-arch"
@@ -58,14 +58,14 @@ class Contact extends React.Component {
                 <img src="/images/Circle-Emblem-3.svg" className="image-icon" />
               </a>
               <a className="subtitle-links" href="#">
-                <h2>My Social</h2>
+                <h2>Let's Connect</h2>
               </a>
             </div>
           </div>
           <div className="row justify-content-center p-1">
             <div className="col-12 icon-container">
               <p className="made-with-love">
-                made with love by: tyler samuelson
+                made with love by : tyler samuelson
               </p>
             </div>
           </div>

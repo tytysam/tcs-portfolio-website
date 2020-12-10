@@ -44,6 +44,32 @@
   }
 }
 
+.fade-in {
+  animation: fadeIn ease-in 1500ms;
+  -webkit-animation: fadeIn ease-in 1500ms;
+  -moz-animation: fadeIn ease-in 1500ms;
+  -o-animation: fadeIn ease-in 1500ms;
+  -ms-animation: fadeIn ease-in 1500ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .about-me {
   width: 100%;
   height: 450px;
@@ -85,3 +111,7 @@
   background-color: rgb(255, 219, 88, 0.5);
   transition: 200ms ease-in;
 } */
+
+#spacer-div {
+  height: 30vh;
+}

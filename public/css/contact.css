@@ -1,7 +1,7 @@
 #contact-text-arch {
   /* transform: translateY(-35%); */
   position: relative;
-  top: -130px;
+  top: -120px;
   margin-top: 0px;
 }
 
@@ -69,12 +69,6 @@
   font-weight: 100;
 }
 
-/* 
-
-*** ANIMATIONS ***
-
-*/
-
 @keyframes shaka {
   0% {
     transform: rotate(0deg);
@@ -106,6 +100,32 @@
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease-in 1500ms;
+  -webkit-animation: fadeIn ease-in 1500ms;
+  -moz-animation: fadeIn ease-in 1500ms;
+  -o-animation: fadeIn ease-in 1500ms;
+  -ms-animation: fadeIn ease-in 1500ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

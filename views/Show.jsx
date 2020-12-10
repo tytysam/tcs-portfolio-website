@@ -1,12 +1,13 @@
 const React = require("react");
 const Layout = require("./Layout.jsx");
+const SayHi = require("./SayHi.jsx");
 
 class Show extends React.Component {
   render() {
     const post = this.props.post;
     return (
       <Layout title={`${post.name}`} stylesheet="/css/show.css" js="">
-        <div className="container">
+        <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-6 header-content">
               <h1>{`${post.name}`}</h1>
@@ -24,6 +25,8 @@ class Show extends React.Component {
             </div>
           </div>
         </div>
+        <div id="spacer-div"></div>
+        <SayHi></SayHi>
       </Layout>
     );
   }

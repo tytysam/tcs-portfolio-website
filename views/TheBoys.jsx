@@ -1,5 +1,6 @@
 const React = require("react");
 const Layout = require("./Layout.jsx");
+const SayHi = require("./SayHi.jsx");
 
 class TheBoys extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class TheBoys extends React.Component {
         stylesheet="/css/the-boys.css"
         js=""
       >
-        <div className="container">
+        <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-8">
               <h1>The Boys: Supe-R Destruction</h1>
@@ -22,10 +23,18 @@ class TheBoys extends React.Component {
                 {/* <img src="/images/TheBoys-game-thumbnail.png" /> */}
               </div>
               <div className="link-btn-container">
-                <a className="btn btn-sm btn-primary" href="#">
+                <a
+                  className="btn btn-sm btn-primary"
+                  target="_blank"
+                  href="https://github.com/tytysam/TheBoys_Supe-r_Destruction"
+                >
                   Git Repository
                 </a>
-                <a className="btn btn-sm btn-primary" href="#">
+                <a
+                  className="btn btn-sm btn-primary"
+                  target="_blank"
+                  href="https://tytysam.github.io/TheBoys_Supe-r_Destruction/"
+                >
                   Live Deployment
                 </a>
               </div>
@@ -80,6 +89,8 @@ class TheBoys extends React.Component {
             </div>
           </div>
         </div>
+        <div id="spacer-div"></div>
+        <SayHi></SayHi>
       </Layout>
     );
   }

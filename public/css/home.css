@@ -42,7 +42,17 @@ h1 {
 }
 
 .hero-container h1:hover {
+  cursor: pointer;
   /* animation-play-state: running; */
+}
+
+@keyframes move {
+  from {
+    background-position: 2px 57px;
+  }
+  to {
+    background-position: 500px 57px;
+  }
 }
 
 @-webkit-keyframes move {
@@ -54,12 +64,38 @@ h1 {
   }
 }
 
-@keyframes move {
-  from {
-    background-position: 2px 57px;
+.fade-in {
+  animation: fadeIn ease-in 1000ms;
+  -webkit-animation: fadeIn ease-in 1000ms;
+  -moz-animation: fadeIn ease-in 1000ms;
+  -o-animation: fadeIn ease-in 1000ms;
+  -ms-animation: fadeIn ease-in 1000ms;
+}
+
+.fade-in.top {
+}
+
+.fade-in.middle {
+}
+
+.fade-in.bottom {
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  to {
-    background-position: 500px 57px;
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -79,15 +115,4 @@ h1 {
 
 #spacer-div {
   height: 30vh;
-}
-
-.say-hi-container {
-  border: 1px solid #202020;
-  border-radius: 10px;
-  height: 600px;
-}
-
-.say-hi-container h1 {
-  margin-top: -45px;
-  margin-bottom: 0px;
 }

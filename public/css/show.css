@@ -1,3 +1,29 @@
+.fade-in {
+  animation: fadeIn ease-in 1500ms;
+  -webkit-animation: fadeIn ease-in 1500ms;
+  -moz-animation: fadeIn ease-in 1500ms;
+  -o-animation: fadeIn ease-in 1500ms;
+  -ms-animation: fadeIn ease-in 1500ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .header-content {
   margin-top: 75px;
   margin-bottom: 25px;
@@ -20,4 +46,8 @@ h1 {
 .header-image {
   height: auto;
   margin-bottom: 25px;
+}
+
+#spacer-div {
+  height: 30vh;
 }

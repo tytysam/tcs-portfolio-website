@@ -1,3 +1,29 @@
+.fade-in {
+  animation: fadeIn ease-in 1500ms;
+  -webkit-animation: fadeIn ease-in 1500ms;
+  -moz-animation: fadeIn ease-in 1500ms;
+  -o-animation: fadeIn ease-in 1500ms;
+  -ms-animation: fadeIn ease-in 1500ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .page-header {
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -72,4 +98,8 @@
   padding: 15px;
   border: 1px solid #202020;
   background-color: #202020;
+}
+
+#spacer-div {
+  height: 30vh;
 }
