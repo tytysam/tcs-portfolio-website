@@ -26,7 +26,7 @@ class Show extends React.Component {
           </div>
         </div>
         <div id="spacer-div"></div>
-        <SayHi></SayHi>
+        <SayHi />
       </Layout>
     );
   }

@@ -1,3 +1,14 @@
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+/* /////////////////// */
+/*      ABOUT HEAD     */
+/* /////////////////// */
+
 .page-header {
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -114,4 +125,86 @@
 
 #spacer-div {
   height: 30vh;
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+/* //////////////////////// */
+/*   CURRENTLY... SECTION   */
+/* //////////////////////// */
+
+.currently-section-container {
+  /* border: 1px solid #202020; */
+  border-radius: 10px;
+  height: 650px;
+}
+
+.currently-section-container h1 {
+  font-family: lust-display, serif;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-top: -45px;
+  margin-bottom: 0px;
+}
+
+.currently-section-contents {
+  justify-content: space-between;
+  text-align: center;
+
+  margin: 75px 0px;
+}
+
+.currently-section-contents h2 {
+  font-family: montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+  font-style: normal;
+
+  text-align: center;
+}
+
+.currently-section-contents img {
+  min-width: 100px;
+  max-height: 250px;
+
+  border-radius: 5px;
+
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  transition: ease-in 100ms;
+}
+
+.currently-section-contents img:hover {
+  box-shadow: 3px 3px 15px rgba(32, 32, 32, 0.3);
+  transition: ease-in 100ms;
+}
+
+.currently-section-contents h4 {
+  font-family: montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+
+  text-align: center;
+}
+
+.currently-section-contents h5 {
+  font-family: montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+
+  text-align: center;
+}
+
+.currently-section-contents h5 span {
+  font-weight: 400;
 }

@@ -1,5 +1,6 @@
 const React = require("react");
 const Layout = require("./Layout.jsx");
+const CurrentlySection = require("./CurrentlySection");
 const SayHi = require("./SayHi.jsx");
 
 class About extends React.Component {
@@ -88,7 +89,9 @@ class About extends React.Component {
           </div>
         </div>
         <div id="spacer-div"></div>
-        <SayHi></SayHi>
+        <CurrentlySection />
+        <div id="spacer-div"></div>
+        <SayHi />
       </Layout>
     );
   }

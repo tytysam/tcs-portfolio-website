@@ -14,9 +14,9 @@ class ProjectsDisplay extends React.Component {
             </div>
           </div>
         </div>
-        <ProjectCards></ProjectCards>
+        <ProjectCards />
         <div id="spacer-div"></div>
-        <SayHi></SayHi>
+        <SayHi />
       </Layout>
     );
   }
