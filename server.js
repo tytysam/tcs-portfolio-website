@@ -85,7 +85,9 @@ app.get("/projects/portfolio-design", (req, res) => {
   res.render("PortfolioDesign");
 });
 
-// MORE PROJECTS ***
+// *********************
+// *** MORE PROJECTS ***
+// *********************
 
 // CONTACT
 app.get("/contact", (req, res) => {

@@ -49,6 +49,10 @@ class PortfolioDesign extends React.Component {
                 <p className="label">Built with:</p>
                 <p className="subtitle">
                   <span className="highlight">
+                    <i className="fab fa-js"></i> JavaScript
+                  </span>
+                  |
+                  <span className="highlight">
                     <i class="fab fa-html5"></i> HTML
                   </span>
                   |
@@ -80,7 +84,7 @@ class PortfolioDesign extends React.Component {
                 <h5>Proudest Accomplishments:</h5>
                 <ul>
                   <li>
-                    Fully-responsive site built-from-scratch on top Bootstrap
+                    Fully-responsive site custom-developed on top of Bootstrap
                   </li>
                   <li>Custom Design, Animations, and Vector Graphics</li>
                   <li>Full-stack CRUD application that makes use of REST</li>
