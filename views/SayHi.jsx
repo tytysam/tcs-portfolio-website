@@ -33,28 +33,34 @@ class SayHi extends React.Component {
                     <i className="fab fa-github fa-2x"></i>
                   </a>
                   <a href="https://twitter.com/TyTySam" target="_blank">
-                    <i class="fab fa-twitter fa-2x"></i>
+                    <i className="fab fa-twitter fa-2x"></i>
                   </a>
                   <a
                     href="https://www.instagram.com/tytysam08/"
                     target="_blank"
                   >
-                    <i class="fab fa-instagram fa-2x"></i>
+                    <i className="fab fa-instagram fa-2x"></i>
                   </a>
                   <a
                     href="https://www.linkedin.com/in/tcsamuelson/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin fa-2x"></i>
+                    <i className="fab fa-linkedin fa-2x"></i>
+                  </a>
+                  <a
+                    href="https://open.spotify.com/user/tytysam?si=v54G7SujT6S3EpvfeaR0lQ"
+                    target="_blank"
+                  >
+                    <i className="fab fa-spotify fa-2x"></i>
                   </a>
                 </div>
               </div>
-              {/* <div className="inner-image-container col-5">
-                  <img
-                    className="image-fluid"
-                    src="/images/TheBoys-game-thumbnail.png"
-                  />
-                </div> */}
+              <div className="inner-image-container d-none d-lg-block col-5">
+                <img
+                  className="image-fluid"
+                  src="/images/TCS-MachuPicchu.jpg"
+                />
+              </div>
             </div>
           </div>
           <div className="col-1"></div>
