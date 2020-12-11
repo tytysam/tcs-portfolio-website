@@ -1,26 +1,24 @@
 #contact-text-arch {
   /* transform: translateY(-35%); */
   position: relative;
-  top: -120px;
+  top: -15vh;
   margin-top: 0px;
 }
 
 #contact-shaka {
   /* transform: translateY(-19%); */
   position: relative;
-  top: -320px;
-  margin-bottom: 10px;
+  top: -38vh;
 }
 
 #contact-banner {
   /* transform: translateY(-180%); */
   position: relative;
-  top: -350px;
-  margin-top: 10px;
+  top: -40vh;
 }
 
 #contact-banner img {
-  margin: 15px 0 10px 0;
+  margin: 0px 0 0px 0;
 }
 
 #contact-banner hr {
@@ -32,7 +30,7 @@
 #contact-icons-row {
   /* transform: translateY(-150%); */
   position: relative;
-  top: -450px;
+  top: -52vh;
 }
 
 .icon-container h2 {
