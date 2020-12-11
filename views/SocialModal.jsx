@@ -1,12 +1,12 @@
 const React = require("react");
 
-class ContactModals extends React.Component {
+class SocialModal extends React.Component {
   render() {
     return (
       <div>
         <div
           className="modal fade"
-          id="email-me"
+          id="social-modal"
           tabIndex="-1"
           role="dialog"
           aria-labelledby="exampleModalCenterTitle"
@@ -48,4 +48,4 @@ class ContactModals extends React.Component {
   }
 }
 
-module.exports = ContactModals;
+module.exports = SocialModal;

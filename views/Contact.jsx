@@ -1,12 +1,12 @@
 const React = require("react");
 const Layout = require("./Layout.jsx");
-const ContactModals = require("./Contact-Modals.jsx");
+const SocialModal = require("./Social-Modal.jsx");
 
 class Contact extends React.Component {
   render() {
     return (
       <Layout title="Let's Chat!" stylesheet="/css/contact.css" js="">
-        <ContactModals></ContactModals>
+        <SocialModal></SocialModal>
 
         <div className="container fade-in">
           <div
@@ -38,23 +38,30 @@ class Contact extends React.Component {
             id="contact-icons-row"
           >
             <div className="col-md-3 icon-container">
-              <a data-toggle="modal" data-target="#email-me">
+              <a href="mailto: tylercsamuelson@gmail.com">
                 <img src="/images/Circle-Emblem-1.svg" className="image-icon" />
               </a>
-              <a className="subtitle-links" href="#">
+              <a
+                className="subtitle-links"
+                href="mailto: tylercsamuelson@gmail.com"
+              >
                 <h2>Email Me</h2>
               </a>
             </div>
             <div className="col-md-3 icon-container">
-              <a href="#">
+              <a href="/documents/TCSamuelson_2020.pdf" download>
                 <img src="/images/Circle-Emblem-2.svg" className="image-icon" />
               </a>
-              <a className="subtitle-links" href="#">
+              <a
+                className="subtitle-links"
+                href="/documents/TCSamuelson_2020.pdf"
+                download
+              >
                 <h2>My Resume</h2>
               </a>
             </div>
             <div className="col-md-3 icon-container">
-              <a href="#">
+              <a data-toggle="modal" data-target="#social-modal">
                 <img src="/images/Circle-Emblem-3.svg" className="image-icon" />
               </a>
               <a className="subtitle-links" href="#">
