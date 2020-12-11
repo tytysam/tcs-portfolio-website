@@ -81,6 +81,9 @@ app.get("/projects/the-boys", (req, res) => {
 });
 
 // PORTFOLIO SITE ROUTE
+app.get("/projects/portfolio-design", (req, res) => {
+  res.render("PortfolioDesign");
+});
 
 // MORE PROJECTS ***
 

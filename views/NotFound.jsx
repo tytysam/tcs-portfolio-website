@@ -5,7 +5,7 @@ class NotFound extends React.Component {
   render() {
     return (
       <Layout title="Page not found..." stylesheet="/css/not-found.css" js="">
-        <div className="container" id="content-container">
+        <div className="container fade-in" id="content-container">
           <div className="row justify-content-center mt-5 p-3">
             <div className="col-6">
               <img src="/images/Well-Shoot-404-Banner.svg" class="svg-text" />

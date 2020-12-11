@@ -56,11 +56,11 @@
 }
 
 .fade-in {
-  animation: fadeIn ease-in 1500ms;
-  -webkit-animation: fadeIn ease-in 1500ms;
-  -moz-animation: fadeIn ease-in 1500ms;
-  -o-animation: fadeIn ease-in 1500ms;
-  -ms-animation: fadeIn ease-in 1500ms;
+  animation: fadeIn ease-in 1000ms;
+  -webkit-animation: fadeIn ease-in 1000ms;
+  -moz-animation: fadeIn ease-in 1000ms;
+  -o-animation: fadeIn ease-in 1000ms;
+  -ms-animation: fadeIn ease-in 1000ms;
 }
 
 @keyframes fadeIn {

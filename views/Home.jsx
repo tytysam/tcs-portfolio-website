@@ -5,7 +5,11 @@ const SayHi = require("./SayHi.jsx");
 class Home extends React.Component {
   render() {
     return (
-      <Layout title="Tyler Samuelson" stylesheet="/css/home.css" js="">
+      <Layout
+        title="TYLR SMLSN | Tyler Samuelson - Software Engineer & Digital Designer based in Denver, Colorado"
+        stylesheet="/css/home.css"
+        js=""
+      >
         <div className="container hero-container fade-in">
           <div className="row justify-content-center fade-in top">
             <div className="col-md-4">

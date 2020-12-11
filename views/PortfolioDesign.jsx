@@ -2,18 +2,18 @@ const React = require("react");
 const Layout = require("./Layout.jsx");
 const SayHi = require("./SayHi.jsx");
 
-class TheBoys extends React.Component {
+class PortfolioDesign extends React.Component {
   render() {
     return (
       <Layout
-        title="The Boys: Super Destruction"
-        stylesheet="/css/the-boys.css"
+        title="Portfolio Website Project for Tyler C. Samuelson"
+        stylesheet="/css/portfolio-design-project.css"
         js=""
       >
         <div className="container fade-in">
           <div className="row justify-content-center">
-            <div className="col-8">
-              <h1>The Boys: Supe-R Destruction</h1>
+            <div className="col-6">
+              <h1>This Portfolio Website</h1>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ class TheBoys extends React.Component {
             <div className="col-lg-5 left-col">
               <div className="project-image-container">
                 <img
-                  src="/images/TheBoys-game-thumbnail.png"
+                  src="/images/portfolio-website-capture-mockup.jpg"
                   className="img-fluid"
                 />
               </div>
@@ -29,31 +29,25 @@ class TheBoys extends React.Component {
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://github.com/tytysam/TheBoys_Supe-r_Destruction"
+                  href="https://github.com/tytysam/tcs-portfolio-website"
                 >
                   Git Repository
                 </a>
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://tytysam.github.io/TheBoys_Supe-r_Destruction/"
+                  href="http://www.tylercsamuelson.com/"
                 >
                   Live Deployment
                 </a>
               </div>
             </div>
-
             <div className="col-lg-1"></div>
-
             <div className="col-lg-6">
               <div className="summary">
-                <h2>Browser-Based JavaScript Game</h2>
+                <h2>Mobile-First Web Design</h2>
                 <p className="label">Built with:</p>
                 <p className="subtitle">
-                  <span className="highlight">
-                    <i class="fab fa-js"></i> JavaScript
-                  </span>
-                  |
                   <span className="highlight">
                     <i class="fab fa-html5"></i> HTML
                   </span>
@@ -61,28 +55,36 @@ class TheBoys extends React.Component {
                   <span className="highlight">
                     <i class="fab fa-css3"></i> CSS
                   </span>
+                  |
+                  <span className="highlight">
+                    <i className="fab fa-bootstrap"></i> Bootstrap
+                  </span>
+                  |
+                  <span className="highlight">
+                    <i className="fab fa-node-js"></i> Node.js
+                  </span>
                 </p>
-                <p>Browser-based game written purely in Vanilla JavaScript.</p>
                 <p>
-                  Built just-for-fun, inspired by games of my childhood like
-                  Final Fantasy and Pokemon.
+                  Fully-responsive CRUD application, built-from-scratch on top
+                  of Bootstrap.
                 </p>
                 <p>
-                  <b>The Boys: Supe-r Destruction</b> is an RPG-style game with
-                  classic Final-Fantasy turn-based combat straight out of the
-                  '90s —— based on the titular comic book series and television
-                  show: <em>The Boys</em>. Follow a team of 8bit-ish rag-tag
-                  vigilantes as they combat super-powered individuals who abuse
-                  their powers. Battle to the top of Vought Tower and expose the
-                  truth about Vought, The Seven, and Compound-V!
+                  Connected to MongoDB, which handles the server-side rendering
+                  of my blog content. This site was created with a particular
+                  focus on responsiveness — my layouts will work on any device,
+                  big or small. My human-centric design approach facilitates
+                  intuitive UX. I love to make my pages come to life while still
+                  ensuring fast load times and lag-free interactions.
                 </p>
                 <hr></hr>
                 <h5>Proudest Accomplishments:</h5>
                 <ul>
-                  <li>Turn-based combat logic in Vanilla JavaScript</li>
-                  <li>Custom Pixel-Art and Aesthetic</li>
-                  <li>Unique and deep character/enemy design</li>
-                  <li>A game that I'm excited to keep honing</li>
+                  <li>
+                    Fully-responsive site built-from-scratch on top Bootstrap
+                  </li>
+                  <li>Custom Design, Animations, and Vector Graphics</li>
+                  <li>Full-stack CRUD application that makes use of REST</li>
+                  <li>Flexible, reusable component-based design</li>
                 </ul>
               </div>
             </div>
@@ -99,4 +101,4 @@ class TheBoys extends React.Component {
   }
 }
 
-module.exports = TheBoys;
+module.exports = PortfolioDesign;

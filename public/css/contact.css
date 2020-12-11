@@ -1,14 +1,13 @@
 #contact-text-arch {
   /* transform: translateY(-35%); */
   position: relative;
-  top: -15vh;
-  margin-top: 0px;
+  top: -17vh;
 }
 
 #contact-shaka {
   /* transform: translateY(-19%); */
   position: relative;
-  top: -38vh;
+  top: -41vh;
 }
 
 #contact-banner {
@@ -22,15 +21,17 @@
 }
 
 #contact-banner hr {
-  width: 20%;
-  transform: translateY(-45px);
+  width: 25%;
+  transform: translateY(-35px);
   border-top: 3px solid #f6a800;
+  padding: 0px;
+  margin: 5px auto;
 }
 
 #contact-icons-row {
   /* transform: translateY(-150%); */
   position: relative;
-  top: -52vh;
+  top: -47vh;
 }
 
 .icon-container h2 {
@@ -102,11 +103,11 @@
 }
 
 .fade-in {
-  animation: fadeIn ease-in 1500ms;
-  -webkit-animation: fadeIn ease-in 1500ms;
-  -moz-animation: fadeIn ease-in 1500ms;
-  -o-animation: fadeIn ease-in 1500ms;
-  -ms-animation: fadeIn ease-in 1500ms;
+  animation: fadeIn ease-in 1000ms;
+  -webkit-animation: fadeIn ease-in 1000ms;
+  -moz-animation: fadeIn ease-in 1000ms;
+  -o-animation: fadeIn ease-in 1000ms;
+  -ms-animation: fadeIn ease-in 1000ms;
 }
 
 @keyframes fadeIn {
@@ -129,56 +130,7 @@
 
 #contact-shaka img {
   animation-name: shaka;
-  animation-duration: 1.25s;
+  animation-duration: 1250ms;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
-}
-
-/* 
-
-*** MEDIA-SPECIFIC QUERIES ***
-
-/*
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  #contact-icons-row {
-    margin: 0px;
-  }
-
-  #contact-shaka {
-    /* transform: translateY(-19%); */
-  }
-
-  #contact-banner {
-    /* translate: translateY(100%); */
-  }
-
-  #contact-banner hr {
-    margin-bottom: 0px;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  #contact-icons-row {
-    margin-top: 20px;
-  }
-  #contact-banner hr {
-    margin-bottom: 0px;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  #contact-icons-row {
-    margin-top: 30px;
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  #contact-icons-row {
-    margin-top: 40px;
-  }
 }
