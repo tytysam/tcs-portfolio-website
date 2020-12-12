@@ -77,10 +77,16 @@ class ProjectCards extends React.Component {
                 <span className="highlight">
                   <i className="fab fa-bootstrap"></i> Bootstrap
                 </span>
-                |
-                <span className="highlight">
-                  <i className="fab fa-node-js"></i> Node.js
-                </span>
+                <br />
+                <div className="easy-center-align-container">
+                  <span className="highlight">
+                    <i className="fab fa-node-js"></i> Node.js
+                  </span>
+                  |<span className="highlight">MongoDB</span>|
+                  <span className="highlight">
+                    <i className="fab fa-node-js"></i> Express.js
+                  </span>
+                </div>
               </p>
               <a
                 className="btn btn-sm btn-primary"
@@ -92,7 +98,7 @@ class ProjectCards extends React.Component {
               <p>
                 Fully-responsive CRUD application, built-from-scratch on top of
                 Bootstrap. Custom design, animations, and vector graphics.
-                Flexible, reusable component-based design.
+                Versatile, component-based design.
               </p>
             </div>
           </div>

@@ -72,7 +72,7 @@ class Contact extends React.Component {
           <div className="row justify-content-center p-1">
             <div className="col-12 icon-container">
               <p className="made-with-love">
-                made with love by : tyler samuelson
+                made with <i className="fas fa-heart"></i> by tyler samuelson
               </p>
             </div>
           </div>

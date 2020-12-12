@@ -63,10 +63,15 @@ class PortfolioDesign extends React.Component {
                   <span className="highlight">
                     <i className="fab fa-bootstrap"></i> Bootstrap
                   </span>
-                  |
+                  <br />
                   <span className="highlight">
                     <i className="fab fa-node-js"></i> Node.js
                   </span>
+                  |
+                  <span className="highlight">
+                    <i className="fab fa-node-js"></i> Express.js
+                  </span>
+                  |<span className="highlight">MongoDB</span>
                 </p>
                 <p>
                   Fully-responsive CRUD application, built-from-scratch on top

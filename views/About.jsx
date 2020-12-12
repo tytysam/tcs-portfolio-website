@@ -75,10 +75,8 @@ class About extends React.Component {
                 </p>
                 <hr></hr>
                 <p>
-                  • Tyler Charles Samuelson
-                  <br />•{" "}
-                  <span className="glyphicon glyphicon-chevron-right"></span>
-                  With love from: Denver, Colorado
+                  Tyler Charles Samuelson <br />
+                  With <i className="far fa-heart"></i> from: Denver, Colorado
                 </p>
               </div>
             </div>
