@@ -132,5 +132,5 @@
   animation-name: shaka;
   animation-duration: 1250ms;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in-out;
 }
