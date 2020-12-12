@@ -1,15 +1,18 @@
 # Tyler Charles Samuelson
 
+#### Creator | Software Engineer | Problem Solver
+
 ## Personal Portfolio Website
 
-##### Live Site:
+### Live Site:
 
 Currently living on Heroku, so please forgive any slowness on start-up.
+<br >
 Check it out at [tylercsamuelson.com](http://www.tylercsamuelson.com/)
 
 ### Mobile-First Web Design
 
-##### **Built With:** JavaScript | HTML5 | CSS3 | Bootstrap 4 | Node.js
+#### **Built With:** JavaScript | HTML5 | CSS3 | Bootstrap 4 | Node.js
 
 Fully-responsive CRUD application, built-from-scratch on top of Bootstrap.
 
