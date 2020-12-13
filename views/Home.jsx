@@ -34,11 +34,13 @@ class Home extends React.Component {
           </div>
 
           <div className="row justify-content-center ">
-            <div className="col-12">
+            <div className="col-md-12">
               <p className="subtitle">
-                Digital Creator <span className="subtitle-bars">|</span>{" "}
-                Software Engineer <span className="subtitle-bars">|</span>{" "}
-                Problem Solver
+                <span className="highlight">Digital Creator </span>
+                <span className="subtitle-bars">|</span>{" "}
+                <span className="highlight">Software Engineer</span>{" "}
+                <span className="subtitle-bars">|</span>{" "}
+                <span className="highlight">Problem Solver</span>
               </p>
             </div>
           </div>

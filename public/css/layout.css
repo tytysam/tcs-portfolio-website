@@ -3,13 +3,25 @@
 /*   GENERAL LAYOUT    */
 /* /////////////////// */
 
+:root {
+  --primaryColorLight: #fdfbf5;
+  --primaryColorDark: #202020;
+
+  --accentColorYellow: #f6a800;
+  --accentColorGreen: #09553f;
+
+  --boxShadowColor: rgba(32, 32, 32, 0.3);
+
+  --onHoverHighlightLight: rgba(246, 168, 0, 0.2);
+}
+
 body {
-  background-color: #fdfbf5;
+  background-color: var(--primaryColorLight);
   font-family: montserrat, sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-  color: #202020;
+  color: var(--primaryColorDark);
 }
 
 .header li {
@@ -41,7 +53,7 @@ body {
 /* /////////////////// */
 
 .say-hi-container {
-  border: 1px solid #202020;
+  border: 1px solid var(--primaryColorDark);
   border-radius: 10px;
   height: 650px;
 }
@@ -61,11 +73,11 @@ body {
 }
 
 .email {
-  color: #202020;
+  color: var(--primaryColorDark);
 }
 
 .email:hover {
-  color: #202020;
+  color: var(--primaryColorDark);
   text-decoration: none;
 }
 
@@ -80,7 +92,7 @@ body {
 }
 
 .inner-text-container hr {
-  border-top: 1px solid #202020;
+  border-top: 1px solid var(--primaryColorDark);
   margin-bottom: 75px;
 }
 
@@ -92,11 +104,11 @@ body {
 }
 
 .social-icon-container a {
-  color: #202020;
+  color: var(--primaryColorDark);
 }
 
 .social-icon-container a:hover {
-  color: #202020;
+  color: var(--primaryColorDark);
 }
 
 .social-icon-container i {
@@ -118,7 +130,7 @@ body {
 }
 
 .inner-image-container img:hover {
-  box-shadow: 5px 5px 15px rgba(32, 32, 32, 0.2);
+  box-shadow: 5px 5px 15px var(--boxShadowColor);
   transition: ease-in 200ms;
 }
 
@@ -134,7 +146,7 @@ body {
 /* /////////////////// */
 
 #social-modal-container {
-  background-color: #fdfbf5;
+  background-color: var(--primaryColorLight);
   padding: 10px;
 }
 

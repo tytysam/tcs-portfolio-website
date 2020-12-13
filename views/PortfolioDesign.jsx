@@ -53,11 +53,11 @@ class PortfolioDesign extends React.Component {
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fab fa-html5"></i> HTML
+                    <i className="fab fa-html5"></i> HTML
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fab fa-css3"></i> CSS
+                    <i className="fab fa-css3"></i> CSS
                   </span>
                   |
                   <span className="highlight">

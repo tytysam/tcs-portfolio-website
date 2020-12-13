@@ -23,7 +23,7 @@
 #contact-banner hr {
   width: 25%;
   transform: translateY(-35px);
-  border-top: 3px solid #f6a800;
+  border-top: 3px solid var(--accentColorYellow);
   padding: 0px;
   margin: 5px auto;
 }
@@ -35,7 +35,7 @@
 }
 
 .icon-container h2 {
-  color: #202020;
+  color: var(--primaryColorDark);
 
   text-align: center;
   font-size: 16px;
@@ -49,11 +49,11 @@
 }
 
 .subtitle-links:hover {
-  color: #f6a800;
+  color: var(--accentColorYellow);
 }
 
 .icon-container h2:hover {
-  color: #f6a800;
+  color: var(--accentColorYellow);
   font-weight: bolder;
   transition: ease-in 100ms;
 }

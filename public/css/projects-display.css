@@ -102,7 +102,7 @@
 }
 
 .project-container {
-  border: 1px solid #202020;
+  border: 1px solid var(--primaryColorDark);
   border-radius: 8px;
   padding: 30px;
   margin-top: 75px;
@@ -118,7 +118,7 @@
 }
 
 .project-container:hover {
-  box-shadow: 5px 5px 15px rgba(32, 32, 32, 0.3);
+  box-shadow: 5px 5px 15px var(--boxShadowColor);
   transition: ease-in 300ms;
 }
 
@@ -131,11 +131,11 @@
 }
 
 .project-container a {
-  color: #202020;
+  color: var(--primaryColorDark);
 }
 
 .project-container a:hover {
-  color: #202020;
+  color: var(--primaryColorDark);
   text-decoration: none;
 }
 
@@ -159,6 +159,13 @@
 
 .highlight {
   padding: 5px;
+
+  transition: ease-in 200ms;
+}
+
+.highlight:hover {
+  background-color: var(--onHoverHighlightLight);
+  transition: ease-in 200ms;
 }
 
 #see-project-btn {
@@ -166,19 +173,19 @@
 
   font-family: lust-display, serif;
   letter-spacing: 2px;
-  color: #202020;
+  color: var(--primaryColorDark);
   margin: 20px 15px;
   padding: 15px;
-  border: 1px solid #202020;
+  border: 1px solid var(--primaryColorDark);
   background-color: transparent;
 }
 
 #see-project-btn:hover {
-  color: #fdfbf5;
+  color: var(--primaryColorLight);
   margin: 20px 15px;
   padding: 15px;
-  border: 1px solid #202020;
-  background-color: #202020;
+  border: 1px solid var(--primaryColorDark);
+  background-color: var(--primaryColorDark);
 }
 
 #spacer-div {

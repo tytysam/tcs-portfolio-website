@@ -109,6 +109,15 @@ h1 {
   margin-top: 25px;
 }
 
+.highlight {
+  transition: ease-in 200ms;
+}
+
+.highlight:hover {
+  background-color: var(--onHoverHighlightLight);
+  transition: ease-in 200ms;
+}
+
 .subtitle-bars {
   padding: 5px 10px 5px 10px;
 }

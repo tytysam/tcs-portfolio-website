@@ -92,8 +92,6 @@
   margin-bottom: 15px;
 
   border-radius: 8px;
-
-  color: #fdfbf5;
 }
 
 .about-me h2 {
@@ -105,23 +103,15 @@
 }
 
 .highlight {
-  /* color: #1f4a54; */
-  /* color: #ffdb58; */
-
   padding: 5px 10px 5px 10px;
-}
 
-/*
-  color: rgb(255, 219, 88, 1);
-  background-color: rgba(31, 74, 84, 0.5);
-  transition: 200ms ease-in;
+  transition: ease-in 200ms;
 }
 
 .highlight:hover {
-  color: rgb(31, 74, 84);
-  background-color: rgb(255, 219, 88, 0.5);
-  transition: 200ms ease-in;
-} */
+  background-color: var(--onHoverHighlightLight);
+  transition: ease-in 200ms;
+}
 
 #spacer-div {
   height: 25vh;
@@ -139,7 +129,7 @@
 /* //////////////////////// */
 
 .currently-section-container {
-  /* border: 1px solid #202020; */
+  /* border: 1px solid var(--primaryDark); */
   border-radius: 10px;
   /* height: 550px; */
   height: 70vh;
@@ -184,7 +174,7 @@
 }
 
 .currently-section-contents img:hover {
-  box-shadow: 3px 3px 15px rgba(32, 32, 32, 0.3);
+  box-shadow: 3px 3px 15px var(--boxShadowColor);
   transition: ease-in 100ms;
 }
 

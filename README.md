@@ -1,6 +1,6 @@
 # Tyler Charles Samuelson
 
-##### Creator | Software Engineer | Problem Solver
+##### Digital Creator | Software Engineer | Problem Solver
 
 ## Personal Portfolio Website
 

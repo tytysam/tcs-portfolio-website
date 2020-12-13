@@ -73,31 +73,31 @@
 .card {
   margin-top: 25px;
   margin-bottom: 25px;
-  border: 1px solid #202020;
+  border: 1px solid var(--primaryColorDark);
   border-radius: 5px;
 }
 
 .card-body {
-  background-color: #fdfbf5;
+  background-color: var(--primaryColorLight);
 }
 
 .read-more-btn {
   box-shadow: none !important;
 
   font-family: lust-display, serif;
-  color: #202020;
+  color: var(--primaryColorDark);
   margin: 20px 15px;
   padding: 15px;
-  border: 1px solid #202020;
+  border: 1px solid var(--primaryColorDark);
   background-color: transparent;
 }
 
 .read-more-btn:hover {
-  color: #fdfbf5;
+  color: var(--primaryColorLight);
   margin: 20px 15px;
   padding: 15px;
-  border: 1px solid #202020;
-  background-color: #202020;
+  border: 1px solid var(--primaryColorDark);
+  background-color: var(--primaryColorDark);
 }
 
 #spacer-div {

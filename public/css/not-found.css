@@ -37,7 +37,7 @@ p {
 }
 
 p a {
-  color: #09553f;
+  color: var(--accentColorGreen);
 
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -64,7 +64,7 @@ p a {
 
 p a:hover {
   animation-play-state: running;
-  color: #09553f;
+  color: var(--accentColorGreen);
   text-decoration: none;
 }
 

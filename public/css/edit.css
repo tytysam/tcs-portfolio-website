@@ -10,12 +10,12 @@ h1 {
 }
 
 label {
-  background-color: #fdfbf5;
+  background-color: var(--primaryColorLight);
   font-family: montserrat, sans-serif;
   font-size: 18px;
   font-weight: 300;
   font-style: italic;
-  color: #202020;
+  color: var(--primaryColorDark);
 }
 
 .form-group {
@@ -31,13 +31,13 @@ label {
   font-size: 20px;
 
   height: 65px;
-  color: #202020;
-  background-color: #fdfbf5;
+  color: var(--primaryColorDark);
+  background-color: var(--primaryColorLight);
   transition: ease-in 200ms;
 }
 
 .submit-btn input:hover {
-  color: #fdfbf5;
-  background-color: #202020;
+  color: var(--primaryColorLight);
+  background-color: var(--primaryColorDark);
   transition: ease-in 200ms;
 }
