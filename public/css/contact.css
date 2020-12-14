@@ -134,3 +134,51 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+/* /////////////////// */
+/*    MEDIA QUERIES    */
+/* /////////////////// */
+
+@media (max-width: 767.98px) {
+  #contact-text-arch {
+    position: relative;
+    top: -5vh;
+  }
+  #contact-shaka {
+    max-width: 50%;
+    position: relative;
+
+    transform: translateX(55%);
+  }
+}
+
+@media (max-width: 991.98px) {
+  #contact-shaka {
+    top: -32vh;
+    margin-bottom: 10px;
+  }
+  #contact-banner {
+    /* transform: translateY(-180%); */
+    position: relative;
+    top: -30vh;
+  }
+  #contact-banner hr {
+    width: 25%;
+    transform: translateY(-25px);
+    border-top: 3px solid var(--accentColorYellow);
+    padding: 0px;
+    margin: 5px auto;
+  }
+  #contact-icons-row {
+    /* transform: translateY(-150%); */
+    position: relative;
+    top: -37vh;
+  }
+}
