@@ -10,7 +10,7 @@ class SayHi extends React.Component {
             <h1>Say hi.</h1>
             <div className="say-hi-contents row">
               <div className="inner-text-container col-md-5">
-                <a className="email" href="mailto:hello@tylercsamuelson.com">
+                <a className="email" href="mailto: tylercsamuelson@gmail.com">
                   <h2>
                     hello@
                     <br />

@@ -51,15 +51,15 @@ class TheBoys extends React.Component {
                 <p className="label">Built with:</p>
                 <p className="subtitle">
                   <span className="highlight">
-                    <i class="fab fa-js"></i> JavaScript
+                    <i className="fab fa-js"></i> JavaScript
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fab fa-html5"></i> HTML
+                    <i className="fab fa-html5"></i> HTML
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fab fa-css3"></i> CSS
+                    <i className="fab fa-css3"></i> CSS
                   </span>
                 </p>
                 <p>Browser-based game written purely in Vanilla JavaScript.</p>

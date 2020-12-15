@@ -1,11 +1,9 @@
 #contact-text-arch {
-  /* transform: translateY(-35%); */
   position: relative;
-  top: -17vh;
+  top: -16vh;
 }
 
 #contact-shaka {
-  /* transform: translateY(-19%); */
   position: relative;
   top: -41vh;
 }
@@ -13,7 +11,7 @@
 #contact-banner {
   /* transform: translateY(-180%); */
   position: relative;
-  top: -40vh;
+  top: -41vh;
 }
 
 #contact-banner img {
@@ -146,39 +144,82 @@
 /*    MEDIA QUERIES    */
 /* /////////////////// */
 
+/* Extra small devices (portrait phones, less than 576px) */
+/* ------------------------------------------------------ */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, less than 768px)      */
+/* ------------------------------------------------------ */
 @media (max-width: 767.98px) {
   #contact-text-arch {
     position: relative;
-    top: -5vh;
+    top: -55vh;
+    max-width: 300px;
+
+    transform: translateX(25vw);
   }
   #contact-shaka {
-    max-width: 50%;
-    position: relative;
+    top: -32vh;
+    max-width: 200px;
+    margin-bottom: 10px;
 
-    transform: translateX(55%);
+    transform: translateX(35vw);
+  }
+  #contact-banner {
+    position: relative;
+    top: -30vh;
+
+    max-width: 650px;
+  }
+  #contact-banner hr {
+    transform: translateY(-25px);
+  }
+  #contact-icons-row {
+    position: relative;
+    top: -37vh;
   }
 }
 
+/* Medium devices (tablets, less than 992px)              */
+/* ------------------------------------------------------ */
 @media (max-width: 991.98px) {
+  #contact-text-arch {
+    position: relative;
+    top: -10vh;
+  }
   #contact-shaka {
-    top: -32vh;
+    margin-top: 50px;
     margin-bottom: 10px;
   }
   #contact-banner {
-    /* transform: translateY(-180%); */
     position: relative;
-    top: -30vh;
+    top: -40vh;
   }
   #contact-banner hr {
-    width: 25%;
     transform: translateY(-25px);
-    border-top: 3px solid var(--accentColorYellow);
-    padding: 0px;
-    margin: 5px auto;
   }
   #contact-icons-row {
-    /* transform: translateY(-150%); */
     position: relative;
-    top: -37vh;
+    top: -46vh;
+  }
+}
+
+/* Large devices (desktops, less than 1200px)             */
+/* ------------------------------------------------------ */
+@media (max-width: 1199.98px) {
+  #contact-text-arch {
+    position: relative;
+    top: -15vh;
+  }
+  #contact-shaka {
+    top: -38vh;
+    margin-bottom: 15px;
+  }
+  #contact-banner {
+  }
+  #contact-banner hr {
+  }
+  #contact-icons-row {
   }
 }
