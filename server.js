@@ -85,6 +85,11 @@ app.get("/projects/portfolio-design", (req, res) => {
   res.render("PortfolioDesign");
 });
 
+// AD ASTRA DIGITAL  ROUTE
+app.get("/projects/ad-astra-digital", (req, res) => {
+  res.render("AdAstra");
+});
+
 // *********************
 // *** MORE PROJECTS ***
 // *********************

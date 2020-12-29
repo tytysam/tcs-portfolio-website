@@ -32,7 +32,7 @@ class About extends React.Component {
               <div className="self-summary">
                 <h2>Hi. I'm Tyler.</h2>
                 <p className="subtitle">
-                  <span className="highlight">Designer</span> |
+                  <span className="highlight">Creator</span> |
                   <span className="highlight">Adventurer</span> |
                   <span className="highlight">Problem Solver</span>
                 </p>

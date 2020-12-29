@@ -49,12 +49,12 @@ class Contact extends React.Component {
               </a>
             </div>
             <div className="col-md-3 icon-container">
-              <a href="/documents/TCSamuelson_2020.pdf" download>
+              <a href="/documents/TCSamuelson_2021.pdf" download>
                 <img src="/images/Circle-Emblem-2.svg" className="image-icon" />
               </a>
               <a
                 className="subtitle-links"
-                href="/documents/TCSamuelson_2020.pdf"
+                href="/documents/TCSamuelson_2021.pdf"
                 download
               >
                 <h2>My Resume</h2>
