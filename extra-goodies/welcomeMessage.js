@@ -10,8 +10,8 @@ let styles = [
   "border: 1px dashed #202020;",
 ].join(";");
 
-const welcomeMesssage = () => {
-  document.addEventListener("DOMContentLoaded", () => {
-    console.log(msg, styles);
-  });
+const welcomeMessage = () => {
+  console.log(msg, styles);
 };
+
+module.exports = welcomeMessage;

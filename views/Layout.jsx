@@ -1,7 +1,10 @@
 const React = require("react");
+const welcomeMessage = require("../extra-goodies/welcomeMessage.js");
 
 class Layout extends React.Component {
   render() {
+    welcomeMessage();
+
     return (
       <html lang="en" dir="ltr">
         <head>
