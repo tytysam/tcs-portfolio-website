@@ -5,6 +5,148 @@ class ProjectCards extends React.Component {
     return (
       <div className="container fade-in">
         <div className="row component-container justify-content-center p-2">
+          {/* *** LISTEN ALONG APP *** */}
+          <div className="col-lg-6">
+            <div className="project-container">
+              <a href="/projects/listen-along">
+                <h2>Listen Along</h2>
+              </a>
+              <a href="/projects/listen-along">
+                <img
+                  className="img-fluid"
+                  src="/images/ad-astra-website-capture-mockup.jpg"
+                />
+              </a>
+              <p className="subtitle">Spotify-Powered Listening Room</p>
+              <p>
+                <span className="highlight">
+                  <i className="fab fa-js"></i> JavaScript
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-react"></i> Next.js
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-bootstrap"></i> Bootstrap
+                </span>
+                <br />
+                <div className="easy-center-align-container">
+                  <span className="highlight">
+                    <i className="fab fa-node-js"></i> Node.js
+                  </span>
+                  |<span className="highlight">Redux</span>|
+                  <span className="highlight">
+                    <i class="fas fa-plug"></i> Socket.io
+                  </span>
+                </div>
+              </p>
+              <a
+                className="btn btn-sm btn-primary"
+                href="/projects/listen-along"
+                id="see-project-btn"
+              >
+                See Project Details
+              </a>
+              <p>
+                Next.js project with Spotify's Web API where a shared queue can
+                be added to and edited by anyone present in the room. Vote songs
+                up the queue and jam synchronously together via Spotify—even
+                when you can't be together.
+              </p>
+            </div>
+          </div>
+
+          {/* *** REACT WEATHER APP *** */}
+          <div className="col-lg-6">
+            <div className="project-container">
+              <a href="/projects/react-weather-app">
+                <h2>React Weather App</h2>
+              </a>
+              <a href="/projects/react-weather-app">
+                <img
+                  className="img-fluid"
+                  src="/images/ad-astra-website-capture-mockup.jpg"
+                />
+              </a>
+              <p className="subtitle">API-Driven Development</p>
+              <p>
+                <span className="highlight">
+                  <i className="fab fa-js"></i> JavaScript
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-html5"></i> HTML
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-bootstrap"></i> Bootstrap
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-react"></i> React.js
+                </span>
+              </p>
+              <a
+                className="btn btn-sm btn-primary"
+                href="/projects/react-weather-app"
+                id="see-project-btn"
+              >
+                See Project Details
+              </a>
+              <p>
+                Dynamic weather app built with OpenWeather's API and React.
+                Leverages useState and conditional rendering in order to
+                dynamically display custom graphics and colors alongside the
+                weather data output.
+              </p>
+            </div>
+          </div>
+
+          {/* *** AD ASTRA DIGITAL *** */}
+          <div className="col-lg-6">
+            <div className="project-container">
+              <a href="/projects/ad-astra-digital">
+                <h2>Ad Astra Digital</h2>
+              </a>
+              <a href="/projects/ad-astra-digital">
+                <img
+                  className="img-fluid"
+                  src="/images/ad-astra-website-capture-mockup.jpg"
+                />
+              </a>
+              <p className="subtitle">Wordpress-Based Web Development</p>
+              <p>
+                <span className="highlight">
+                  <i className="fab fa-js"></i> JavaScript
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-html5"></i> HTML
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-css3"></i> CSS
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-wordpress-simple"></i> WordPress
+                </span>
+              </p>
+              <a
+                className="btn btn-sm btn-primary"
+                href="/projects/ad-astra-digital"
+                id="see-project-btn"
+              >
+                See Project Details
+              </a>
+              <p>
+                Engaging, mobile-responsive website built in WordPress for a
+                Digital Marketing Agency. Custom animations built with CSS.
+              </p>
+            </div>
+          </div>
+
           {/* *** THE BOYS: SUPE-R DESTRUCTION *** */}
           <div className="col-lg-6">
             <div className="project-container">
@@ -100,58 +242,6 @@ class ProjectCards extends React.Component {
               </p>
             </div>
           </div>
-
-          {/* *** AD ASTRA DIGITAL *** */}
-          <div className="col-lg-6">
-            <div className="project-container">
-              <a href="/projects/ad-astra-digital">
-                <h2>Ad Astra Digital</h2>
-              </a>
-              <a href="/projects/ad-astra-digital">
-                <img
-                  className="img-fluid"
-                  src="/images/ad-astra-website-capture-mockup.jpg"
-                />
-              </a>
-              <p className="subtitle">Wordpress-Based Web Development</p>
-              <p>
-                <span className="highlight">
-                  <i className="fab fa-js"></i> JavaScript
-                </span>
-                |
-                <span className="highlight">
-                  <i className="fab fa-html5"></i> HTML
-                </span>
-                |
-                <span className="highlight">
-                  <i className="fab fa-css3"></i> CSS
-                </span>
-                |
-                <span className="highlight">
-                  <i className="fab fa-wordpress-simple"></i> WordPress
-                </span>
-              </p>
-              <a
-                className="btn btn-sm btn-primary"
-                href="/projects/ad-astra-digital"
-                id="see-project-btn"
-              >
-                See Project Details
-              </a>
-              <p>
-                Engaging, mobile-responsive website built in WordPress for a
-                Digital Marketing Agency. Custom animations built with CSS.
-              </p>
-            </div>
-          </div>
-
-          {/* *** REACT WEATHER APP *** */}
-
-          {/* *** LISTEN ALONG APP *** */}
-
-          {/* <span className="highlight">
-            <i className="fas fa-plug"></i> Web Sockets
-          </span> */}
         </div>
       </div>
     );

@@ -1,0 +1,127 @@
+.fade-in {
+  animation: fadeIn ease-in 1000ms;
+  -webkit-animation: fadeIn ease-in 1000ms;
+  -moz-animation: fadeIn ease-in 1000ms;
+  -o-animation: fadeIn ease-in 1000ms;
+  -ms-animation: fadeIn ease-in 1000ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-family: lust-display, serif;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid var(--primaryColorDark);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.project-image-container {
+  width: 100%;
+  height: auto;
+
+  border-radius: 8px;
+
+  color: var(--primaryColorLight);
+}
+
+.project-image-container img {
+  height: auto;
+
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.link-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.link-btn-container a {
+  box-shadow: none !important;
+
+  font-family: lust-display, serif;
+  color: var(--primaryColorDark);
+  margin: 10px 15px;
+  padding: 15px 25px;
+  border: 1px solid var(--primaryColorDark);
+  background-color: transparent;
+}
+
+.link-btn-container a:hover {
+  color: var(--primaryColorLight);
+  margin: 10px 15px;
+  padding: 15px 25px;
+  border: 1px solid var(--primaryColorDark);
+  background-color: var(--primaryColorDark);
+}
+
+.summary {
+  margin-top: 15px;
+}
+
+.summary h2 {
+  font-size: 28px;
+  font-style: italic;
+}
+
+.subtitle {
+  font-weight: 500;
+}
+
+.highlight {
+  padding: 5px 10px 5px 10px;
+
+  transition: ease-in 200ms;
+}
+
+.highlight:hover {
+  background-color: var(--onHoverHighlightLight);
+  transition: ease-in 200ms;
+}
+
+.label {
+  margin-bottom: 0;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+#spacer-div {
+  height: 30vh;
+}

@@ -72,6 +72,18 @@ class About extends React.Component {
                   <span className="highlight">
                     <i className="fab fa-node-js"></i> Node.js
                   </span>
+                  <br />
+                  <span className="highlight">
+                    <i class="fas fa-code"></i> SQL
+                  </span>
+                  |
+                  <span className="highlight">
+                    <i class="fas fa-code"></i> Ruby on Rails
+                  </span>
+                  |
+                  <span className="highlight">
+                    <i class="fas fa-code"></i> Material-UI
+                  </span>
                 </p>
                 <hr></hr>
                 <p>
