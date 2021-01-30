@@ -75,7 +75,7 @@ app.get("/projects", (req, res) => {
   res.render("ProjectsDisplay");
 });
 
-// THE BOYS: SUPE-R DESTRUCTION
+// THE BOYS: SUPE-R DESTRUCTION GAME ROUTE
 app.get("/projects/the-boys", (req, res) => {
   res.render("TheBoys");
 });
@@ -85,9 +85,19 @@ app.get("/projects/portfolio-design", (req, res) => {
   res.render("PortfolioDesign");
 });
 
-// AD ASTRA DIGITAL  ROUTE
+// AD ASTRA DIGITAL SITE ROUTE
 app.get("/projects/ad-astra-digital", (req, res) => {
   res.render("AdAstra");
+});
+
+// REACT WEATHER APP ROUTE
+app.get("/projects/react-weather-app", (req, res) => {
+  res.render("ReactWeatherApp");
+});
+
+// LISTEN ALONG APP ROUTE
+app.get("/projects/listen-along", (req, res) => {
+  res.render("ListenAlong");
 });
 
 // *********************
