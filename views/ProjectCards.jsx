@@ -102,8 +102,9 @@ class ProjectCards extends React.Component {
               </a>
               <p>
                 The Herbery is a modern plant store built with React and a
-                headless CMS. Mobile-responsive and fully-functioning, this fake
-                store is designed on top of Material UI.
+                headless CMS. Mobile-responsive and featuring a
+                fully-functioning Stripe-powered checkout, this fake store is
+                designed on top of Material UI.
               </p>
             </div>
           </div>

@@ -77,8 +77,9 @@ class TheHerbery extends React.Component {
                   headless CMS.
                 </p>
                 <p>
-                  Mobile-responsive and fully-functioning, this fake store is
-                  designed on top of Material UI.
+                  Mobile-responsive and featuring a fully-functioning
+                  Stripe-powered checkout, this fake store is designed on top of
+                  Material UI.
                 </p>
                 <hr></hr>
                 <h5>Proudest Accomplishments:</h5>
