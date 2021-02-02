@@ -2,18 +2,18 @@ const React = require("react");
 const Layout = require("./Layout.jsx");
 const SayHi = require("./SayHi.jsx");
 
-class ReactWeatherApp extends React.Component {
+class TheHerbery extends React.Component {
   render() {
     return (
       <Layout
-        title="OpenWeather-Powered Weather App"
-        stylesheet="/css/react-weather-app.css"
+        title="The Herbery | E-Commerce Plants Storefront"
+        stylesheet="/css/the-herbery.css"
         js=""
       >
         <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-6">
-              <h1>React Weather Web App</h1>
+              <h1>The Herbery</h1>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ class ReactWeatherApp extends React.Component {
             <div className="col-lg-5 left-col">
               <div className="project-image-container">
                 <img
-                  src="/images/react-weather-app_mockup-light.jpg"
+                  src="/images/the-herbery_project-mockup.jpg"
                   className="img-fluid"
                 />
               </div>
@@ -29,14 +29,14 @@ class ReactWeatherApp extends React.Component {
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://github.com/tytysam/react-weather-app"
+                  href="https://github.com/tytysam/the_herbery_ecommerce_storefront"
                 >
                   Git Repository
                 </a>
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://tcs-react-weather-app.herokuapp.com/"
+                  href="https://theherbery.netlify.app/"
                 >
                   Live Deployment
                 </a>
@@ -45,7 +45,7 @@ class ReactWeatherApp extends React.Component {
             <div className="col-lg-1"></div>
             <div className="col-lg-6">
               <div className="summary">
-                <h2>API-Driven Development</h2>
+                <h2>Modern E-Commerce Plant Store</h2>
                 <p className="label">Built with:</p>
                 <p className="subtitle">
                   <span className="highlight">
@@ -53,44 +53,48 @@ class ReactWeatherApp extends React.Component {
                   </span>
                   |
                   <span className="highlight">
-                    <i className="fab fa-html5"></i> HTML
-                  </span>
-                  |
-                  <span className="highlight">
                     <i className="fab fa-react"></i> React.js
                   </span>
                   |
                   <span className="highlight">
-                    <i className="fab fa-bootstrap"></i> Bootstrap
+                    <i class="fas fa-credit-card"></i> Commerce.js
+                  </span>
+                  <br />
+                  <span className="highlight">
+                    <i className="fab fa-node-js"></i> Node.js
+                  </span>
+                  |<span className="highlight">Material UI</span>|
+                  <span className="highlight">
+                    <i class="fab fa-cc-stripe"></i> Stripe
                   </span>
                 </p>
-                <p>Web app built with OpenWeather's API.</p>
                 <p>
-                  Created with React, this web app serves as an up-to-the-moment
-                  weather display for any ZIP in the contiguous US. Search your
-                  desired Zipcode and immediately receive a response from
-                  OpenWeather's API and display the current date, time, City
-                  searched, custom vector graphics displaying the weather
-                  conditions, current temperature in Fahrenheit, a description
-                  of the weather conditions, and the projected high and low
-                  temperatures for the day.
+                  The Herbery is a (fake) plant store made for people who live
+                  by the mantra: Plants Make People Happy.
                 </p>
                 <p>
-                  Leverages useState and dynamic rendering in order to change
-                  the background gradient and vector graphics depending on the
-                  time of day, location, and current weather conditions.
+                  The Herbery is a modern plant store built with React and a
+                  headless CMS.
+                </p>
+                <p>
+                  Mobile-responsive and fully-functioning, this fake store is
+                  designed on top of Material UI.
                 </p>
                 <hr></hr>
                 <h5>Proudest Accomplishments:</h5>
                 <ul>
                   <li>
-                    Fully-responsive app custom-developed on top of Bootstrap
+                    Modern, fully-responsive frontend built with React and
+                    Material UI. Highly customizable. Highly scalable. Highly
+                    flexible.
                   </li>
-                  <li>Custom Design and Vector Graphics</li>
                   <li>
-                    Dynamic rendering that displays different background
-                    gradients and vector graphics depending on the time of day,
-                    location, and current weather conditions
+                    Headless CMS integration with Commerce.js that simplifies
+                    product, category, and store management for business owner
+                  </li>
+                  <li>
+                    Stripe checkout flow that can be implemented for any scale
+                    of e-commerce business
                   </li>
                 </ul>
               </div>
@@ -108,4 +112,4 @@ class ReactWeatherApp extends React.Component {
   }
 }
 
-module.exports = ReactWeatherApp;
+module.exports = TheHerbery;

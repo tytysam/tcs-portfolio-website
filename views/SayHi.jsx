@@ -4,7 +4,7 @@ class SayHi extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row justify-content-center ">
+        <div className="row justify-content-center p-3">
           <div className="col-1"></div>
           <div className="col-md-10 say-hi-container">
             <h1>Say hi.</h1>

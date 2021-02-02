@@ -36,7 +36,7 @@
 }
 
 .page-header {
-  margin-bottom: 10px;
+  margin-bottom: -45px;
   min-width: 420px;
 
   padding-bottom: 5px;
@@ -99,6 +99,9 @@
 .easy-center-align-container {
   margin-top: 0;
   text-align: center;
+}
+
+.col-lg-6 {
 }
 
 .project-container {

@@ -100,6 +100,11 @@ app.get("/projects/listen-along", (req, res) => {
   res.render("ListenAlong");
 });
 
+// THE HERBERY E-COMMERCE STORE ROUTE
+app.get("/projects/the-herbery", (req, res) => {
+  res.render("TheHerbery");
+});
+
 // *********************
 // *** MORE PROJECTS ***
 // *********************

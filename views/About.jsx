@@ -62,7 +62,7 @@ class About extends React.Component {
                   </span>
                   <br />
                   <span className="highlight">
-                    <i className="fab fa-react"></i> React
+                    <i className="fab fa-react"></i> React.js
                   </span>
                   |
                   <span className="highlight">

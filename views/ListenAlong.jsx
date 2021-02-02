@@ -6,7 +6,7 @@ class ListenAlong extends React.Component {
   render() {
     return (
       <Layout
-        title="Portfolio Website Project for Tyler C. Samuelson"
+        title="Listen Along | Spotify-Powered Listening Room"
         stylesheet="/css/listen-along.css"
         js=""
       >
@@ -21,7 +21,7 @@ class ListenAlong extends React.Component {
             <div className="col-lg-5 left-col">
               <div className="project-image-container">
                 <img
-                  src="/images/portfolio-website-capture-mockup.jpg"
+                  src="/images/listen-along_project-mockup.jpg"
                   className="img-fluid"
                 />
               </div>

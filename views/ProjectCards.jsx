@@ -6,7 +6,7 @@ class ProjectCards extends React.Component {
       <div className="container fade-in">
         <div className="row component-container justify-content-center p-2">
           {/* *** LISTEN ALONG APP *** */}
-          <div className="col-lg-6">
+          <div className="col-lg-6 p-4">
             <div className="project-container">
               <a href="/projects/listen-along">
                 <h2>Listen Along</h2>
@@ -14,7 +14,7 @@ class ProjectCards extends React.Component {
               <a href="/projects/listen-along">
                 <img
                   className="img-fluid"
-                  src="/images/ad-astra-website-capture-mockup.jpg"
+                  src="/images/listen-along_project-mockup.jpg"
                 />
               </a>
               <p className="subtitle">Spotify-Powered Listening Room</p>
@@ -57,16 +57,67 @@ class ProjectCards extends React.Component {
             </div>
           </div>
 
+          {/* *** THE HERBERY E-COMMERCE STORE *** */}
+          <div className="col-lg-6 p-4">
+            <div className="project-container">
+              <a href="/projects/the-herbery">
+                <h2>The Herbery</h2>
+              </a>
+              <a href="/projects/the-herbery">
+                <img
+                  className="img-fluid"
+                  src="/images/the-herbery_project-mockup.jpg"
+                />
+              </a>
+              <p className="subtitle">Modern E-Commerce Plant Store</p>
+              <p>
+                <span className="highlight">
+                  <i className="fab fa-js"></i> JavaScript
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-react"></i> React.js
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fas fa-credit-card"></i> Commerce.js
+                </span>
+                <br />
+                <div className="easy-center-align-container">
+                  <span className="highlight">
+                    <i className="fab fa-node-js"></i> Node.js
+                  </span>
+                  |<span className="highlight">Material UI</span>|
+                  <span className="highlight">
+                    <i className="fab fa-cc-stripe"></i> Stripe
+                  </span>
+                </div>
+              </p>
+              <a
+                className="btn btn-sm btn-primary"
+                href="/projects/the-herbery"
+                id="see-project-btn"
+              >
+                See Project Details
+              </a>
+              <p>
+                The Herbery is a modern plant store built with React and a
+                headless CMS. Mobile-responsive and fully-functioning, this fake
+                store is designed on top of Material UI.
+              </p>
+            </div>
+          </div>
+
           {/* *** REACT WEATHER APP *** */}
-          <div className="col-lg-6">
+          <div className="col-lg-6 p-4">
             <div className="project-container">
               <a href="/projects/react-weather-app">
-                <h2>React Weather App</h2>
+                <h2>React Weather Web App</h2>
               </a>
               <a href="/projects/react-weather-app">
                 <img
                   className="img-fluid"
-                  src="/images/ad-astra-website-capture-mockup.jpg"
+                  src="/images/react-weather-app_mockup-light.jpg"
                 />
               </a>
               <p className="subtitle">API-Driven Development</p>
@@ -104,7 +155,7 @@ class ProjectCards extends React.Component {
           </div>
 
           {/* *** AD ASTRA DIGITAL *** */}
-          <div className="col-lg-6">
+          <div className="col-lg-6 p-4">
             <div className="project-container">
               <a href="/projects/ad-astra-digital">
                 <h2>Ad Astra Digital</h2>
@@ -148,7 +199,7 @@ class ProjectCards extends React.Component {
           </div>
 
           {/* *** THE BOYS: SUPE-R DESTRUCTION *** */}
-          <div className="col-lg-6">
+          <div className="col-lg-6 p-4">
             <div className="project-container">
               <a href="/projects/the-boys">
                 <h2>The Boys: Supe-R Destruction</h2>
@@ -189,7 +240,7 @@ class ProjectCards extends React.Component {
           </div>
 
           {/* *** PORTFOLIO WEBSITE *** */}
-          <div className="col-lg-6">
+          <div className="col-lg-6 p-4">
             <div className="project-container">
               <a href="/projects/portfolio-design">
                 <h2>This Portfolio Website</h2>
