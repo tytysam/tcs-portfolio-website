@@ -14,7 +14,6 @@
   padding-bottom: 20px;
   min-width: 500px;
 
-  padding-bottom: 5px;
   background: url("/images/wave-design-yellow.svg");
   background-repeat: repeat;
   background-position-x: 0%;
@@ -198,4 +197,75 @@
 
 .currently-section-contents h5 span {
   font-weight: 400;
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+/* /////////////////// */
+/*    MEDIA QUERIES    */
+/* /////////////////// */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* ------------------------------------------------------ */
+@media (max-width: 575.98px) {
+  .page-header {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    min-width: 375px;
+
+    padding-bottom: 5px;
+    background: url("/images/wave-design-yellow.svg");
+    background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-repeat: repeat-x;
+    background-size: 20px 10px;
+    animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+
+    /* animation-play-state: paused; */
+    animation-play-state: running;
+
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+  @-webkit-keyframes move {
+    from {
+      background-position: 20px 75px;
+    }
+    to {
+      background-position: 500px 75px;
+    }
+  }
+
+  @keyframes move {
+    from {
+      background-position: 20px 75px;
+    }
+    to {
+      background-position: 500px 75px;
+    }
+  }
+}
+
+/* Small devices (landscape phones, less than 768px)      */
+/* ------------------------------------------------------ */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px)              */
+/* ------------------------------------------------------ */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px)             */
+/* ------------------------------------------------------ */
+@media (max-width: 1199.98px) {
 }

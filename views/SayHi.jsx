@@ -11,10 +11,10 @@ class SayHi extends React.Component {
             <div className="say-hi-contents row">
               <div className="inner-text-container col-md-5">
                 <a className="email" href="mailto: tylercsamuelson@gmail.com">
-                  <h2>
-                    hello@
+                  <h2 className="email-prompt-text">
+                    tylercsamuelson
                     <br />
-                    tylercsamuelson.com
+                    @gmail.com
                   </h2>
                 </a>
                 <hr></hr>

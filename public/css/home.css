@@ -125,3 +125,89 @@ h1 {
 #spacer-div {
   height: 30vh;
 }
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+/* /////////////////// */
+/*    MEDIA QUERIES    */
+/* /////////////////// */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* ------------------------------------------------------ */
+@media (max-width: 575.98px) {
+  h1 {
+    font-family: lust-display, serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .hero-container h1 {
+    padding-bottom: 5px;
+    background: url("/images/wave-design-yellow.svg");
+    background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-repeat: repeat-x;
+    background-size: 20px 10px;
+    background-position: 2px 57px;
+    animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+
+    /* animation-play-state: paused; */
+    animation-play-state: running;
+
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+  .hero-container h1.first-name {
+    width: 165px;
+  }
+  .hero-container h1.middle-name {
+    width: 225px;
+  }
+  .hero-container h1.last-name {
+    width: 325px;
+  }
+  @keyframes move {
+    from {
+      background-position: 2px 47px;
+    }
+    to {
+      background-position: 500px 47px;
+    }
+  }
+
+  @-webkit-keyframes move {
+    from {
+      background-position: 2px 47px;
+    }
+    to {
+      background-position: 500px 47px;
+    }
+  }
+}
+
+/* Small devices (landscape phones, less than 768px)      */
+/* ------------------------------------------------------ */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px)              */
+/* ------------------------------------------------------ */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px)             */
+/* ------------------------------------------------------ */
+@media (max-width: 1199.98px) {
+}

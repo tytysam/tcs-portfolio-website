@@ -56,6 +56,7 @@ body {
   border: 1px solid var(--primaryColorDark);
   border-radius: 10px;
   height: 650px;
+  min-width: 350px;
 }
 
 .say-hi-container h1 {
@@ -94,6 +95,7 @@ body {
 .inner-text-container hr {
   border-top: 1px solid var(--primaryColorDark);
   margin-bottom: 75px;
+  width: 85%;
 }
 
 .inner-text-container p {
@@ -163,4 +165,46 @@ body {
 }
 
 #social-modal-body {
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+/* /////////////////// */
+/*    MEDIA QUERIES    */
+/* /////////////////// */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* ------------------------------------------------------ */
+@media (max-width: 575.98px) {
+  .inner-text-container hr {
+    border-top: 1px solid var(--primaryColorDark);
+    margin-bottom: 50px;
+  }
+  .inner-text-container h2 {
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+  .social-icon-container i {
+    margin: 10px 12px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px)      */
+/* ------------------------------------------------------ */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px)              */
+/* ------------------------------------------------------ */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px)             */
+/* ------------------------------------------------------ */
+@media (max-width: 1199.98px) {
 }

@@ -40,13 +40,14 @@ mongoose.connection.on("error", (err) =>
   console.log(err.message + "| Woah, what's up with Mongo?")
 );
 mongoose.connection.on("connected", () =>
-  console.log("MDB connected: ", MONGODB_URI)
+  console.log(`Bingo, Bongo | Connected to Mongo`)
 );
+
 mongoose.connection.on("disconnected", () => console.log("MDB disconnected."));
 
 // On Open-Connection to MongoDB
 mongoose.connection.once("open", () => {
-  console.log(`Bingo, Bongo | Connected to Mongo`);
+  console.log("MDB connection established with database.");
 });
 
 // =======================================

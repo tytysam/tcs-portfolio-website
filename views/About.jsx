@@ -15,7 +15,7 @@ class About extends React.Component {
           </div>
 
           <div className="row justify-content-center p-2">
-            <div className="col-md-5">
+            <div className="col-md-5 col-sm-6">
               <div className="about-me">
                 {/* <h2>Tyler</h2>
                 <h2>[tie-lur] | noun</h2>
@@ -27,7 +27,7 @@ class About extends React.Component {
                 {/* <img src="/images/TCS-MachuPicchu.jpg" /> */}
               </div>
             </div>
-            <div className="col-md-1"></div>
+            <div className="col-md-1 col-sm-0"></div>
             <div className="col-md-6">
               <div className="self-summary">
                 <h2>Hi. I'm Tyler.</h2>
