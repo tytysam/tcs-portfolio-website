@@ -19,9 +19,10 @@ class SayHi extends React.Component {
                 </a>
                 <hr></hr>
                 <p>
-                  I love to design and make things. My curiosity constantly gets
-                  the best of me. I'm always adventuring, creating, and
-                  learning.
+                  I love to design, create, and problem solve. My curiosity is
+                  constantly getting the best of me. I'm forever adventuring,
+                  exploring the corners of myself, and learning from those
+                  around me.
                 </p>
                 <p>Y.N.W.A.</p>
                 <p>
