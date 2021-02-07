@@ -86,7 +86,7 @@ class About extends React.Component {
                   </span>
                 </p>
                 <hr></hr>
-                <p>
+                <p className="signature">
                   Tyler Charles Samuelson <br />
                   With <i className="far fa-heart"></i> from: Denver, Colorado
                 </p>

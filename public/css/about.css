@@ -98,13 +98,11 @@
 }
 
 .self-summary-header {
-  text-align: center;
+  /* text-align: center; */
   font-size: 35px;
 }
 
 .subtitle {
-  text-align: center;
-
   font-weight: 500;
 }
 
@@ -141,7 +139,7 @@
   height: 70vh;
 }
 
-.currently-section-container h1 {
+.currently-header {
   font-family: lust-display, serif;
   font-size: 60px;
   font-weight: 400;
@@ -220,6 +218,9 @@
 /* Extra small devices (portrait phones, less than 576px) */
 /* ------------------------------------------------------ */
 @media (max-width: 575.98px) {
+  .container {
+    min-width: 375px;
+  }
   .page-header {
     margin-bottom: 25px;
     padding-bottom: 20px;
@@ -279,9 +280,29 @@
   .subtitle {
     font-size: 13px;
     font-weight: 300;
+    text-align: center;
   }
   .self-summary {
     margin: 5px 10px;
+  }
+  .signature {
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+  }
+  #spacer-div {
+    height: 15vh;
+  }
+
+  .currently-section-container {
+    height: 100%;
+  }
+  .currently-header {
+    font-size: 50px;
+  }
+  .currently-item {
+    margin-top: 50px;
   }
 }
 

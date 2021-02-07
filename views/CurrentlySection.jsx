@@ -6,9 +6,9 @@ class CurrentlySection extends React.Component {
       <div className="container">
         <div className="row justify-content-center ">
           <div className="col-md-12 currently-section-container">
-            <h1>Currently...</h1>
+            <h1 className="currently-header">Currently...</h1>
             <div className="currently-section-contents row">
-              <div className="col-3">
+              <div className="col-sm-3">
                 <h2>Listening:</h2>
                 <a
                   href="https://open.spotify.com/playlist/26hrnPQ8TPyvjruPmwGcJz?si=t0JOz5D2Q3yXBPkLux8A2w"
@@ -22,7 +22,7 @@ class CurrentlySection extends React.Component {
                 <h4>Muzik Mundaez</h4>
                 <h5>My go-to playlist. A little bit of everything.</h5>
               </div>
-              <div className="col-3">
+              <div className="col-sm-3 currently-item">
                 <h2>Reading:</h2>
                 <img
                   src="/images/klosterman-chuck_but-what-if-were-wrong.jpg"
@@ -33,7 +33,7 @@ class CurrentlySection extends React.Component {
                   <span>By: </span>Chuck Klosterman
                 </h5>
               </div>
-              <div className="col-3">
+              <div className="col-sm-3 currently-item">
                 <h2>Playing:</h2>
                 <img
                   src="/images/star-renegades.jpg"
