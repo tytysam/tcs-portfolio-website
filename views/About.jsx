@@ -14,7 +14,7 @@ class About extends React.Component {
             </div>
           </div>
 
-          <div className="row justify-content-center p-2">
+          <div className="row justify-content-center p-2 about-container">
             <div className="col-md-5 col-sm-6">
               <div className="about-me">
                 {/* <h2>Tyler</h2>
@@ -27,10 +27,10 @@ class About extends React.Component {
                 {/* <img src="/images/TCS-MachuPicchu.jpg" /> */}
               </div>
             </div>
-            <div className="col-md-1 col-sm-0"></div>
-            <div className="col-md-6">
-              <div className="self-summary">
-                <h2>Hi. I'm Tyler.</h2>
+            <div className="col-xs-1 col-sm-0"></div>
+            <div className="col-md-6 self-summary">
+              <div className="">
+                <h2 className="self-summary-header">Hi. I'm Tyler.</h2>
                 <p className="subtitle">
                   <span className="highlight">Creator</span> |
                   <span className="highlight">Adventurer</span> |
@@ -74,15 +74,15 @@ class About extends React.Component {
                   </span>
                   <br />
                   <span className="highlight">
-                    <i class="fas fa-code"></i> SQL
+                    <i className="fas fa-code"></i> SQL
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fas fa-code"></i> Ruby on Rails
+                    <i className="fas fa-code"></i> Ruby on Rails
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fas fa-code"></i> Material-UI
+                    <i className="fas fa-code"></i> Material-UI
                   </span>
                 </p>
                 <hr></hr>
