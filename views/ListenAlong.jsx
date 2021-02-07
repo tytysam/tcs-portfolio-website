@@ -12,7 +12,7 @@ class ListenAlong extends React.Component {
       >
         <div className="container fade-in">
           <div className="row justify-content-center">
-            <div className="col-md-6">
+            <div className="col-md-8">
               <h1>Listen Along</h1>
             </div>
           </div>

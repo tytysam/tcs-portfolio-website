@@ -12,7 +12,7 @@ class TheBoys extends React.Component {
       >
         <div className="container fade-in">
           <div className="row justify-content-center">
-            <div className="col-8">
+            <div className="col-md-6">
               <h1>The Boys: Supe-R Destruction</h1>
             </div>
           </div>
