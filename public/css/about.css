@@ -304,6 +304,14 @@
   .currently-item {
     margin-top: 50px;
   }
+  .currently-section-contents h2 {
+    font-family: montserrat, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: center;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px)      */

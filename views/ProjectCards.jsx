@@ -18,7 +18,7 @@ class ProjectCards extends React.Component {
                 />
               </a>
               <p className="subtitle">Spotify-Powered Listening Room</p>
-              <p>
+              <p className="highlight-container">
                 <span className="highlight">
                   <i className="fab fa-js"></i> JavaScript
                 </span>
@@ -134,10 +134,12 @@ class ProjectCards extends React.Component {
                 <span className="highlight">
                   <i className="fab fa-bootstrap"></i> Bootstrap
                 </span>
-                |
-                <span className="highlight">
-                  <i className="fab fa-react"></i> React.js
-                </span>
+                <br />
+                <div className="easy-center-align-container">
+                  <span className="highlight">
+                    <i className="fab fa-react"></i> React.js
+                  </span>
+                </div>
               </p>
               <a
                 className="btn btn-sm btn-primary"
@@ -180,10 +182,12 @@ class ProjectCards extends React.Component {
                 <span className="highlight">
                   <i className="fab fa-css3"></i> CSS
                 </span>
-                |
-                <span className="highlight">
-                  <i className="fab fa-wordpress-simple"></i> WordPress
-                </span>
+                <br />
+                <div className="easy-center-align-container">
+                  <span className="highlight">
+                    <i className="fab fa-wordpress-simple"></i> WordPress
+                  </span>
+                </div>
               </p>
               <a
                 className="btn btn-sm btn-primary"
@@ -260,10 +264,6 @@ class ProjectCards extends React.Component {
                 |
                 <span className="highlight">
                   <i className="fab fa-html5"></i> HTML
-                </span>
-                |
-                <span className="highlight">
-                  <i className="fab fa-css3"></i> CSS
                 </span>
                 |
                 <span className="highlight">

@@ -37,7 +37,7 @@
 
 .page-header {
   margin-bottom: -45px;
-  min-width: 420px;
+  min-width: 375px;
 
   padding-bottom: 5px;
   background: url("/images/wave-design-yellow.svg");
@@ -112,7 +112,7 @@
   margin-bottom: 50px;
 
   width: 100%;
-  min-width: 400px;
+  min-width: 350px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -162,13 +162,16 @@
 
 .highlight {
   padding: 5px;
-
   transition: ease-in 200ms;
 }
 
 .highlight:hover {
   background-color: var(--onHoverHighlightLight);
   transition: ease-in 200ms;
+}
+
+.highlight-container {
+  min-width: 200px;
 }
 
 #see-project-btn {
@@ -193,4 +196,102 @@
 
 #spacer-div {
   height: 30vh;
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+/* /////////////////// */
+/*    MEDIA QUERIES    */
+/* /////////////////// */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* ------------------------------------------------------ */
+@media (max-width: 575.98px) {
+  .container {
+    min-width: 375px;
+  }
+  .page-header {
+    min-width: 375px;
+
+    padding-bottom: 5px;
+    background: url("/images/wave-design-yellow.svg");
+    background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-repeat: repeat-x;
+    background-size: 20px 10px;
+    animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+
+    /* animation-play-state: paused; */
+    animation-play-state: running;
+
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+
+  @-webkit-keyframes move {
+    from {
+      background-position: 20px 65px;
+    }
+    to {
+      background-position: 500px 65px;
+    }
+  }
+  @keyframes move {
+    from {
+      background-position: 20px 65px;
+    }
+    to {
+      background-position: 500px 65px;
+    }
+  }
+    .project-container {
+      margin-top: 75px;
+      margin-bottom: 0;
+    }
+
+  .highlight {
+    font-size: 12px;
+  }
+  #spacer-div {
+  height: 20vh;
+}
+}
+
+/* Small devices (landscape phones, less than 768px)      */
+/* ------------------------------------------------------ */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px)              */
+/* ------------------------------------------------------ */
+@media (max-width: 991.98px) {
+  @-webkit-keyframes move {
+    from {
+      background-position: 20px 65px;
+    }
+    to {
+      background-position: 500px 65px;
+    }
+  }
+  @keyframes move {
+    from {
+      background-position: 20px 65px;
+    }
+    to {
+      background-position: 500px 65px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)             */
+/* ------------------------------------------------------ */
+@media (max-width: 1199.98px) {
 }
