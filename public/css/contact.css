@@ -1,35 +1,61 @@
+.container {
+  margin-top: 30px;
+}
+
 #contact-text-arch {
   position: relative;
-  top: -16vh;
+  text-align: center;
+}
+
+.textarch-container img {
+  position: relative;
+  top: -7rem;
+  max-width: 250px;
 }
 
 #contact-shaka {
   position: relative;
-  top: -41vh;
+  text-align: center;
+}
+
+.shaka-container img {
+  position: relative;
+  top: -16rem;
+  max-width: 150px;
 }
 
 #contact-banner {
-  /* transform: translateY(-180%); */
   position: relative;
-  top: -41vh;
+  text-align: center;
 }
 
 #contact-banner img {
-  margin: 0px 0 0px 0;
+  position: relative;
+  top: -16rem;
+  max-width: 300px;
 }
 
 #contact-banner hr {
+  position: relative;
   width: 25%;
-  transform: translateY(-35px);
-  border-top: 3px solid var(--accentColorYellow);
+  /* transform: translateY(-35px); */
+  border-top: 2px solid var(--accentColorYellow);
   padding: 0px;
-  margin: 5px auto;
+}
+
+.hr-1 {
+  top: -16.5rem;
+  margin: 2px auto;
+}
+
+.hr-2 {
+  top: -16rem;
+  margin: 2px auto;
 }
 
 #contact-icons-row {
-  /* transform: translateY(-150%); */
   position: relative;
-  top: -47vh;
+  top: -16rem;
 }
 
 .icon-container h2 {
@@ -147,79 +173,24 @@
 /* Extra small devices (portrait phones, less than 576px) */
 /* ------------------------------------------------------ */
 @media (max-width: 575.98px) {
+  .container {
+    min-width: 375px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px)      */
 /* ------------------------------------------------------ */
 @media (max-width: 767.98px) {
-  #contact-text-arch {
-    position: relative;
-    top: -55vh;
-    max-width: 300px;
-
-    transform: translateX(25vw);
-  }
-  #contact-shaka {
-    top: -32vh;
-    max-width: 200px;
-    margin-bottom: 10px;
-
-    transform: translateX(35vw);
-  }
-  #contact-banner {
-    position: relative;
-    top: -30vh;
-
-    max-width: 650px;
-  }
-  #contact-banner hr {
-    transform: translateY(-25px);
-  }
-  #contact-icons-row {
-    position: relative;
-    top: -37vh;
-  }
 }
 
 /* Medium devices (tablets, less than 992px)              */
 /* ------------------------------------------------------ */
 @media (max-width: 991.98px) {
-  #contact-text-arch {
-    position: relative;
-    top: -10vh;
-  }
-  #contact-shaka {
-    margin-top: 50px;
-    margin-bottom: 10px;
-  }
-  #contact-banner {
-    position: relative;
-    top: -40vh;
-  }
-  #contact-banner hr {
-    transform: translateY(-25px);
-  }
-  #contact-icons-row {
-    position: relative;
-    top: -46vh;
-  }
 }
 
 /* Large devices (desktops, less than 1200px)             */
 /* ------------------------------------------------------ */
 @media (max-width: 1199.98px) {
-  #contact-text-arch {
-    position: relative;
-    top: -15vh;
-  }
-  #contact-shaka {
-    top: -38vh;
-    margin-bottom: 15px;
-  }
-  #contact-banner {
-  }
-  #contact-banner hr {
-  }
-  #contact-icons-row {
-  }
 }

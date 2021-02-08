@@ -9,17 +9,14 @@ class Contact extends React.Component {
         <SocialModal></SocialModal>
 
         <div className="container fade-in">
-          <div
-            className="row justify-content-center p-2"
-            id="contact-text-arch"
-          >
-            <div className="col-md-4">
+          <div className="row justify-content-center" id="contact-text-arch">
+            <div className="col-md-12 textarch-container">
               <img src="/images/Contact-Me-Textarch-Yellow.svg" />
             </div>
           </div>
 
           <div className="row justify-content-center" id="contact-shaka">
-            <div className="col-md-2">
+            <div className="col-md-6 shaka-container">
               <img src="/images/Shaka-Shake-Yellow.svg" />
             </div>
           </div>
@@ -27,8 +24,8 @@ class Contact extends React.Component {
           <div className="row justify-content-center" id="contact-banner">
             <div className="col-md-6">
               <img src="/images/Let's-Talk-Banner.svg" />
-              <hr></hr>
-              <hr></hr>
+              <hr className="hr-1"></hr>
+              <hr className="hr-2"></hr>
             </div>
           </div>
 
