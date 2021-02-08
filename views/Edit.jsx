@@ -8,12 +8,12 @@ class Edit extends React.Component {
       <Layout title={`Edit ${post.name}`} stylesheet="/css/edit.css" js="">
         <div className="container">
           <div className="row justify-content-center p-2">
-            <div className="col-6">
+            <div className="col-md-6">
               <h1>{`Edit: ${post.name}`}</h1>
             </div>
           </div>
           <div className="row justify-content-center p-2">
-            <div className="col-6">
+            <div className="col-md-8">
               <form action={`/blog/${post._id}?_method=PUT`} method="POST">
                 <div className="form-group">
                   <label>Blog Post Title:</label>
