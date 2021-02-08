@@ -8,7 +8,7 @@ class Index extends React.Component {
       <Layout title="View Blog Posts" stylesheet="/css/index.css" js="">
         <div className="container fade-in">
           <div className="row justify-content-center">
-            <div className="col-6 page-header">
+            <div className="col-md-6 page-header">
               <img src="/images/Blog-Entries.svg" />
             </div>
           </div>

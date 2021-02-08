@@ -5,7 +5,7 @@ class SayHi extends React.Component {
     return (
       <div className="container">
         <div className="row justify-content-center p-3">
-          <div className="col-1"></div>
+          <div className="col-md-1"></div>
           <div className="col-md-10 say-hi-container">
             <h1>Say hi.</h1>
             <div className="say-hi-contents row">
@@ -19,10 +19,9 @@ class SayHi extends React.Component {
                 </a>
                 <hr></hr>
                 <p>
-                  I love to design, create, and problem solve. My curiosity is
-                  constantly getting the best of me. I'm forever adventuring,
-                  exploring the corners of myself, and learning from those
-                  around me.
+                  I love to design, create, and problem solve. I'm forever
+                  adventuring, exploring the corners of myself, and learning
+                  from those around me.
                 </p>
                 <p>Y.N.W.A.</p>
                 <p>
@@ -65,7 +64,7 @@ class SayHi extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col-1"></div>
+          <div className="col-md-1"></div>
         </div>
       </div>
     );

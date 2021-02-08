@@ -9,7 +9,7 @@ class Show extends React.Component {
       <Layout title={`${post.name}`} stylesheet="/css/show.css" js="">
         <div className="container fade-in">
           <div className="row justify-content-center">
-            <div className="col-6 header-content">
+            <div className="col-md-6 header-content">
               <h1>{`${post.name}`}</h1>
 
               <img src={`${post.img}`} className="img-fluid header-image" />
