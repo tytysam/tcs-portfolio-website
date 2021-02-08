@@ -36,10 +36,10 @@
 }
 
 .page-header {
-  margin-bottom: -45px;
-  min-width: 375px;
-
+  margin-bottom: -47px;
+  min-width: 350px;
   padding-bottom: 5px;
+
   background: url("/images/wave-design-yellow.svg");
   background-repeat: repeat;
   background-position-x: 0%;
@@ -213,10 +213,10 @@
 /* ------------------------------------------------------ */
 @media (max-width: 575.98px) {
   .container {
-    min-width: 375px;
+    min-width: 350px;
   }
   .page-header {
-    min-width: 375px;
+    min-width: 350px;
 
     padding-bottom: 5px;
     background: url("/images/wave-design-yellow.svg");
@@ -253,10 +253,10 @@
       background-position: 500px 65px;
     }
   }
-    .project-container {
-      margin-top: 75px;
-      margin-bottom: 0;
-    }
+  .project-container {
+    margin-top: 75px;
+    margin-bottom: 0;
+  }
 
   .highlight {
     font-size: 12px;

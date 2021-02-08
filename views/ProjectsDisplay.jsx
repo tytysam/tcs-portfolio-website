@@ -9,7 +9,7 @@ class ProjectsDisplay extends React.Component {
       <Layout title="My Work" stylesheet="/css/projects-display.css" js="">
         <div className="container fade-in">
           <div className="row justify-content-center">
-            <div className="col-6 page-header">
+            <div className="col-md-6 page-header">
               <img src="/images/My-Work.svg" />
             </div>
           </div>
