@@ -7,12 +7,12 @@ class New extends React.Component {
       <Layout title="New Blog Post" stylesheet="/css/new.css" js="">
         <div className="container">
           <div className="row justify-content-center p-2">
-            <div className="col-6">
+            <div className="col-md-6">
               <h1>New Blog Post</h1>
             </div>
           </div>
           <div className="row justify-content-center p-2">
-            <div className="col-6">
+            <div className="col-md-8">
               <form action="/blog" method="POST">
                 <div className="form-group">
                   <label>Blog Post Title:</label>
