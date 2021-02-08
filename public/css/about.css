@@ -300,6 +300,7 @@
   }
   .currently-header {
     font-size: 50px;
+    text-align: center;
   }
   .currently-item {
     margin-top: 50px;

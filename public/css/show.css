@@ -25,11 +25,12 @@
 }
 
 .header-content {
+  margin: 0 15px;
   margin-top: 75px;
   margin-bottom: 25px;
   border: 1px solid var(--primaryColorDark);
   border-radius: 10px;
-  min-width: 360px;
+  min-width: 350px;
 }
 
 h1 {
