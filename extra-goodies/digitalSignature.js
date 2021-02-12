@@ -10,8 +10,8 @@ let styles = [
   "border: 1px dashed #202020;",
 ].join(";");
 
-const welcomeMessage = () => {
+const digitalSignature = () => {
   console.log(msg, styles);
 };
 
-module.exports = welcomeMessage;
+module.exports = digitalSignature;
