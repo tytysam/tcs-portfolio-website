@@ -1,9 +1,9 @@
 const React = require("react");
-const welcomeMessage = require("../extra-goodies/welcomeMessage.js");
+const digitalSignature = require("../extra-goodies/digitalSignature.js");
 
 class Layout extends React.Component {
   render() {
-    welcomeMessage();
+    digitalSignature();
 
     return (
       <html lang="en" dir="ltr">
