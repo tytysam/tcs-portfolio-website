@@ -13,8 +13,7 @@ class SayHi extends React.Component {
                 <a className="email" href="mailto: tylercsamuelson@gmail.com">
                   <h2 className="email-prompt-text">
                     tylercsamuelson
-                    <br />
-                    @gmail.com
+                    <br /> {"  "}@gmail.com
                   </h2>
                 </a>
                 <hr></hr>
