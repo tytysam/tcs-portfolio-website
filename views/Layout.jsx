@@ -1,9 +1,15 @@
 const React = require("react");
+const ReactGA = require("react-ga");
 const digitalSignature = require("../extra-goodies/digitalSignature.js");
 
 class Layout extends React.Component {
   render() {
     digitalSignature();
+
+    React.useEffect(() => {
+      ReactGA.initialize("G-YTH8LT6EPD");
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }, []);
 
     return (
       <html lang="en" dir="ltr">
@@ -33,11 +39,6 @@ class Layout extends React.Component {
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-YTH8LT6EPD"
           ></script>
-          <script>
-            window.dataLayer = window.dataLayer || []; function gtag()
-            {dataLayer.push(arguments)}
-            gtag('js', new Date()); gtag('config', 'G-YTH8LT6EPD');
-          </script>
           <script
             src="https://kit.fontawesome.com/0f84f97a69.js"
             crossOrigin="anonymous"

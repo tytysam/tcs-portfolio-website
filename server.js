@@ -11,7 +11,6 @@ const express = require("express");
 const app = express();
 const methodOverride = require("method-override");
 const BlogPosts = require("./models/blogPostData.js");
-const e = require("express");
 
 // Allows use of Heroku's port OR our own
 const PORT = process.env.PORT || 3000;
