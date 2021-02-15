@@ -94,6 +94,7 @@
 .component-container {
   /* display: flex; */
   /* justify-content: center; */
+  /* min-width: 375px; */
 }
 
 .easy-center-align-container {
@@ -215,6 +216,15 @@
   .container {
     min-width: 350px;
   }
+
+  .component-container {
+    padding: 20px 0;
+  }
+
+  .col-lg-6 {
+    padding: 10px 10px;
+  }
+
   .page-header {
     min-width: 350px;
 
@@ -262,8 +272,8 @@
     font-size: 12px;
   }
   #spacer-div {
-  height: 20vh;
-}
+    height: 20vh;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px)      */
@@ -289,6 +299,7 @@
     to {
       background-position: 500px 65px;
     }
+  }
 }
 
 /* Large devices (desktops, less than 1200px)             */

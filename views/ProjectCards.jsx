@@ -4,9 +4,9 @@ class ProjectCards extends React.Component {
   render() {
     return (
       <div className="container fade-in">
-        <div className="row component-container justify-content-center p-2">
+        <div className="row component-container justify-content-center p-lg-2">
           {/* *** LISTEN ALONG APP *** */}
-          <div className="col-lg-6 p-4">
+          <div className="col-lg-6 p-md-4">
             <div className="project-container">
               <a href="/projects/listen-along">
                 <h2>Listen Along</h2>
@@ -58,7 +58,7 @@ class ProjectCards extends React.Component {
           </div>
 
           {/* *** THE HERBERY E-COMMERCE STORE *** */}
-          <div className="col-lg-6 p-4">
+          <div className="col-lg-6 p-md-4">
             <div className="project-container">
               <a href="/projects/the-herbery">
                 <h2>The Herbery</h2>
@@ -110,7 +110,7 @@ class ProjectCards extends React.Component {
           </div>
 
           {/* *** REACT WEATHER APP *** */}
-          <div className="col-lg-6 p-4">
+          <div className="col-lg-6 p-md-4">
             <div className="project-container">
               <a href="/projects/react-weather-app">
                 <h2>React Weather Web App</h2>
@@ -158,7 +158,7 @@ class ProjectCards extends React.Component {
           </div>
 
           {/* *** AD ASTRA DIGITAL *** */}
-          <div className="col-lg-6 p-4">
+          <div className="col-lg-6 p-md-4">
             <div className="project-container">
               <a href="/projects/ad-astra-digital">
                 <h2>Ad Astra Digital</h2>
@@ -204,7 +204,7 @@ class ProjectCards extends React.Component {
           </div>
 
           {/* *** THE BOYS: SUPE-R DESTRUCTION *** */}
-          <div className="col-lg-6 p-4">
+          <div className="col-lg-6 p-md-4">
             <div className="project-container">
               <a href="/projects/the-boys">
                 <h2>The Boys: Supe-R Destruction</h2>
@@ -245,7 +245,7 @@ class ProjectCards extends React.Component {
           </div>
 
           {/* *** PORTFOLIO WEBSITE *** */}
-          <div className="col-lg-6 p-4">
+          <div className="col-lg-6 p-md-4">
             <div className="project-container">
               <a href="/projects/portfolio-design">
                 <h2>This Portfolio Website</h2>
