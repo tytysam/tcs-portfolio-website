@@ -30,6 +30,15 @@ class Layout extends React.Component {
           <link rel="stylesheet" href="/css/layout.css" />
           <link rel="stylesheet" href={this.props.stylesheet} />
           <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-YTH8LT6EPD"
+          ></script>
+          <script>
+            window.dataLayer = window.dataLayer || []; function gtag()
+            {dataLayer.push(arguments)}
+            gtag('js', new Date()); gtag('config', 'G-YTH8LT6EPD');
+          </script>
+          <script
             src="https://kit.fontawesome.com/0f84f97a69.js"
             crossOrigin="anonymous"
           ></script>
