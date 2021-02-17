@@ -1,9 +1,10 @@
-const React = require("react");
-// const ReactGA = require("react-ga");
-const digitalSignature = require("../extra-goodies/digitalSignature.js");
+import React, { useEffect } from "react";
+import ReactGA from "react-ga";
+import digitalSignature from "../extra-goodies/digitalSignature.js";
 
 const injectGA = () => {
   if (typeof window == "undefined") {
+    console.log("did not inject GA");
     return;
   }
   window.dataLayer = window.dataLayer || [];
@@ -12,13 +13,15 @@ const injectGA = () => {
   }
   gtag("js", new Date());
   gtag("config", "G-YTH8LT6EPD");
+  console.log("injected GA");
 };
 
 class Layout extends React.Component {
   render() {
-    React.useEffect(() => {
+    useEffect(() => {
       digitalSignature();
 
+      injectGA();
       // ReactGA.initialize("G-YTH8LT6EPD");
       // ReactGA.pageview(window.location.pathname + window.location.search);
     }, []);
