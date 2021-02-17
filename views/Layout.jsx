@@ -1,14 +1,26 @@
 const React = require("react");
-const ReactGA = require("react-ga");
+// const ReactGA = require("react-ga");
 const digitalSignature = require("../extra-goodies/digitalSignature.js");
+
+const injectGA = () => {
+  if (typeof window == "undefined") {
+    return;
+  }
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-YTH8LT6EPD");
+};
 
 class Layout extends React.Component {
   render() {
-    digitalSignature();
-
     React.useEffect(() => {
-      ReactGA.initialize("G-YTH8LT6EPD");
-      ReactGA.pageview(window.location.pathname + window.location.search);
+      digitalSignature();
+
+      // ReactGA.initialize("G-YTH8LT6EPD");
+      // ReactGA.pageview(window.location.pathname + window.location.search);
     }, []);
 
     return (
@@ -21,6 +33,13 @@ class Layout extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <title>{this.props.title}</title>
+
+          {/* Google Analytics */}
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-YTH8LT6EPD"
+          ></script>
+          <script>{injectGA()}</script>
 
           <link rel="shortcut icon" type="image/jpg" href="/images/TS.png" />
           <link
@@ -35,10 +54,7 @@ class Layout extends React.Component {
           ></link>
           <link rel="stylesheet" href="/css/layout.css" />
           <link rel="stylesheet" href={this.props.stylesheet} />
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-YTH8LT6EPD"
-          ></script>
+
           <script
             src="https://kit.fontawesome.com/0f84f97a69.js"
             crossOrigin="anonymous"
