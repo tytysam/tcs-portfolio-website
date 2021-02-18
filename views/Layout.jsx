@@ -1,30 +1,32 @@
-import React, { useEffect } from "react";
-// import ReactGA from "react-ga";
+import React, { useEffect, useState } from "react";
+import ReactGA from "react-ga";
+import window from "global";
 import digitalSignature from "../extra-goodies/digitalSignature.js";
 
-const injectGA = () => {
-  if (typeof window == "undefined") {
-    console.log("did not inject GA");
-    return;
-  }
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    window.dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  gtag("config", "G-YTH8LT6EPD");
-  console.log("injected GA");
+const useIsSsr = () => {
+  const [isSsr, setIsSsr] = useState(true);
+
+  useEffect(() => {
+    setIsSsr(false);
+  }, []);
+
+  return isSsr;
 };
 
 class Layout extends React.Component {
   render() {
-    useEffect(() => {
-      digitalSignature();
+    const injectGA = () => {
+      const isSsr = useIsSsr();
+      if (isSsr) return null;
 
-      injectGA();
-      // ReactGA.initialize("G-YTH8LT6EPD");
-      // ReactGA.pageview(window.location.pathname + window.location.search);
-    }, []);
+      ReactGA.initialize("G-YTH8LT6EPD");
+      ReactGA.pageview(window.location.pathname + window.location.search);
+      console.log("custom hook test");
+    };
+
+    // useEffect(() => {
+    //   digitalSignature();
+    // }, []);
 
     return (
       <html lang="en" dir="ltr">
@@ -42,7 +44,7 @@ class Layout extends React.Component {
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-YTH8LT6EPD"
           ></script>
-          <script>{injectGA()}</script>
+          {/* <script>{injectGA()}</script> */}
 
           <link rel="shortcut icon" type="image/jpg" href="/images/TS.png" />
           <link
