@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "./Layout.jsx";
-import SayHi from "./SayHi.jsx";
+const React = require("react");
+const Layout = require("./Layout.jsx");
+const SayHi = require("./SayHi.jsx");
 
 class Home extends React.Component {
   render() {
