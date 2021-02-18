@@ -1,7 +1,7 @@
-const React = require("react");
-const Layout = require("./Layout.jsx");
-const CurrentlySection = require("./CurrentlySection");
-const SayHi = require("./SayHi.jsx");
+import React from "react";
+import Layout from "./Layout.jsx";
+import CurrentlySection from "./CurrentlySection.jsx";
+import SayHi from "./SayHi.jsx";
 
 class About extends React.Component {
   render() {

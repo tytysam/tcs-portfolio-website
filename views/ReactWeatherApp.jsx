@@ -1,6 +1,6 @@
-const React = require("react");
-const Layout = require("./Layout.jsx");
-const SayHi = require("./SayHi.jsx");
+import React from "react";
+import Layout from "./Layout.jsx";
+import SayHi from "./SayHi.jsx";
 
 class ReactWeatherApp extends React.Component {
   render() {

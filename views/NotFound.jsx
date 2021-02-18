@@ -1,5 +1,5 @@
-const React = require("react");
-const Layout = require("./Layout.jsx");
+import React from "react";
+import Layout from "./Layout.jsx";
 
 class NotFound extends React.Component {
   render() {

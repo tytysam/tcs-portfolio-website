@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 import digitalSignature from "../extra-goodies/digitalSignature.js";
 
 const injectGA = () => {

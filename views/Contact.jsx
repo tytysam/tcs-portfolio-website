@@ -1,6 +1,6 @@
-const React = require("react");
-const Layout = require("./Layout.jsx");
-const SocialModal = require("./SocialModal.jsx");
+import React from "react";
+import Layout from "./Layout.jsx";
+import SocialModal from "./SocialModal.jsx";
 
 class Contact extends React.Component {
   render() {

@@ -1,7 +1,7 @@
-const React = require("react");
-const Layout = require("./Layout.jsx");
-const ProjectCards = require("./ProjectCards.jsx");
-const SayHi = require("./SayHi.jsx");
+import React from "react";
+import Layout from "./Layout.jsx";
+import ProjectCards from "./ProjectCards.jsx";
+import SayHi from "./SayHi.jsx";
 
 class ProjectsDisplay extends React.Component {
   render() {
