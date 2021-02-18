@@ -17,11 +17,13 @@ class Index extends React.Component {
               return (
                 <div className="col-lg-4">
                   <div className="card">
-                    <img
-                      className="card-img-top"
-                      src={`${post.img}`}
-                      alt="Card image cap"
-                    />
+                    <a href={`/blog/${post._id}`}>
+                      <img
+                        className="card-img-top"
+                        src={`${post.img}`}
+                        alt="Card image cap"
+                      />
+                    </a>
                     <div className="card-body">
                       <h5 className="card-title">{post.name}</h5>
                       <p className="card-text">{post.lorem}</p>
