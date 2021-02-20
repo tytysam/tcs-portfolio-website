@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "./Layout.jsx";
+import RecentProjects from "./RecentProjects.jsx";
 import SayHi from "./SayHi.jsx";
 
 class Home extends React.Component {
@@ -45,6 +46,8 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+        <div id="spacer-div"></div>
+        <RecentProjects />
         <div id="spacer-div"></div>
         <SayHi />
       </Layout>

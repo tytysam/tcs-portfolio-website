@@ -48,6 +48,215 @@ body {
 /* ============================================================================================= */
 /* ============================================================================================= */
 
+/* ///////////////////////////////// */
+/*    RECENT PROJECTS SECTIONS       */
+/* ///////////////////////////////// */
+
+.currently-section-container {
+  /* border: 1px solid var(--primaryDark); */
+  border-radius: 10px;
+  /* height: 550px; */
+  height: 70vh;
+}
+
+.currently-header {
+  font-family: lust-display, serif;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-top: -45px;
+  margin-bottom: 0px;
+}
+
+.currently-section-contents {
+  justify-content: space-between;
+  text-align: center;
+
+  margin: 50px 0px;
+}
+
+.currently-section-contents h2 {
+  font-family: montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+  font-style: normal;
+
+  text-align: center;
+}
+
+.currently-section-contents img {
+  min-width: 100px;
+  max-height: 250px;
+
+  border-radius: 5px;
+
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  transition: ease-in 100ms;
+}
+
+.currently-section-contents img:hover {
+  box-shadow: 3px 3px 15px var(--boxShadowColor);
+  transition: ease-in 100ms;
+}
+
+.currently-section-contents h4 {
+  font-family: montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+
+  text-align: center;
+}
+
+.currently-section-contents h5 {
+  font-family: montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+
+  text-align: center;
+}
+
+.currently-section-contents h5 span {
+  font-weight: 400;
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+/* /////////////////// */
+/*    MEDIA QUERIES    */
+/* /////////////////// */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* ------------------------------------------------------ */
+@media (max-width: 575.98px) {
+  .container {
+    min-width: 375px;
+  }
+  .page-header {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    min-width: 375px;
+
+    padding-bottom: 5px;
+    background: url("/images/wave-design-yellow.svg");
+    background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    background-repeat: repeat-x;
+    background-size: 20px 10px;
+    animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+
+    /* animation-play-state: paused; */
+    animation-play-state: running;
+
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+
+  @-webkit-keyframes move {
+    from {
+      background-position: 20px 75px;
+    }
+    to {
+      background-position: 500px 75px;
+    }
+  }
+  @keyframes move {
+    from {
+      background-position: 20px 75px;
+    }
+    to {
+      background-position: 500px 75px;
+    }
+  }
+  .about-me {
+    width: 100%;
+    height: 450px;
+    min-width: 75%;
+    background-image: url("/images/TCS-coffee-shop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+
+    border-radius: 8px;
+  }
+  .self-summary-header {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 28px;
+  }
+  .subtitle {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .self-summary {
+    margin: 5px 10px;
+  }
+  .signature {
+    text-align: center;
+  }
+  h5 {
+    text-align: center;
+  }
+  #spacer-div {
+    height: 15vh;
+  }
+
+  .currently-section-container {
+    height: 100%;
+  }
+  .currently-header {
+    font-size: 50px;
+    text-align: center;
+  }
+  .currently-item {
+    margin-top: 50px;
+  }
+  .currently-section-contents h2 {
+    font-family: montserrat, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px)      */
+/* ------------------------------------------------------ */
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px)              */
+/* ------------------------------------------------------ */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px)             */
+/* ------------------------------------------------------ */
+@media (max-width: 1199.98px) {
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
 /* /////////////////// */
 /*   SAY HI SECTIONS   */
 /* /////////////////// */
