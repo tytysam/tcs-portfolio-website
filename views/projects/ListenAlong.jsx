@@ -79,9 +79,9 @@ class ListenAlong extends React.Component {
                 </p>
                 <p>
                   Listen Along brings people together in a listening room where
-                  a shared queue can be added to and edited by anyone present in
-                  the room. Vote songs up the queue and jam synchronously
-                  together via Spotify—even when you can't be together.
+                  a shared queue can be added to and edited by anyone present.
+                  Vote songs up the queue and jam synchronously together via
+                  Spotify—even when you can't be together.
                 </p>
                 <p>
                   Listening rooms present intimate opportunities to share and
