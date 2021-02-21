@@ -1,24 +1,14 @@
 import React, { useEffect, useState } from "react";
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 import window from "global";
 import digitalSignature from "../extra-goodies/digitalSignature.js";
-
-const useIsSsr = () => {
-  const [isSsr, setIsSsr] = useState(true);
-
-  return isSsr;
-};
 
 class Layout extends React.Component {
   constructor(props) {
     super(props);
-    ReactGA.initialize("G-YTH8LT6EPD");
-    console.log("custom hook test");
+    // ReactGA.initialize("G-YTH8LT6EPD");
+    // console.log("custom hook test");
     digitalSignature();
-  }
-
-  componentDidMount() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   render() {
@@ -38,7 +28,18 @@ class Layout extends React.Component {
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-YTH8LT6EPD"
           ></script>
-          {/* <script>{injectGA()}</script> */}
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-YTH8LT6EPD');
+            `,
+            }}
+          />
 
           <link rel="shortcut icon" type="image/jpg" href="/images/TS.png" />
           <link
