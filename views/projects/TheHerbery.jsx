@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "./Layout.jsx";
-import SayHi from "./SayHi.jsx";
+import Layout from "../Layout.jsx";
+import SayHi from "../SayHi.jsx";
 
 class TheHerbery extends React.Component {
   render() {

@@ -72,37 +72,42 @@ app.get("/about", (req, res) => {
 
 // PROJECTS
 app.get("/projects", (req, res) => {
-  res.render("ProjectsDisplay");
+  res.render("projects/ProjectsDisplay");
 });
 
 // THE BOYS: SUPE-R DESTRUCTION GAME ROUTE
 app.get("/projects/the-boys", (req, res) => {
-  res.render("TheBoys");
+  res.render("projects/TheBoys");
 });
 
 // PORTFOLIO SITE ROUTE
 app.get("/projects/portfolio-design", (req, res) => {
-  res.render("PortfolioDesign");
+  res.render("projects/PortfolioDesign");
 });
 
 // AD ASTRA DIGITAL SITE ROUTE
 app.get("/projects/ad-astra-digital", (req, res) => {
-  res.render("AdAstra");
+  res.render("projects/AdAstra");
 });
 
 // REACT WEATHER APP ROUTE
 app.get("/projects/react-weather-app", (req, res) => {
-  res.render("ReactWeatherApp");
+  res.render("projects/ReactWeatherApp");
 });
 
 // LISTEN ALONG APP ROUTE
 app.get("/projects/listen-along", (req, res) => {
-  res.render("ListenAlong");
+  res.render("projects/ListenAlong");
 });
 
 // THE HERBERY E-COMMERCE STORE ROUTE
 app.get("/projects/the-herbery", (req, res) => {
-  res.render("TheHerbery");
+  res.render("projects/TheHerbery");
+});
+
+// 100 DAYS OF CODE SITE ROUTE
+app.get("/projects/100-days-of-code", (req, res) => {
+  res.render("projects/HundredDaysOfCode");
 });
 
 // *********************

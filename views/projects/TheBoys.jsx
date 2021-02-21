@@ -1,19 +1,19 @@
 import React from "react";
-import Layout from "./Layout.jsx";
-import SayHi from "./SayHi.jsx";
+import Layout from "../Layout.jsx";
+import SayHi from "../SayHi.jsx";
 
-class PortfolioDesign extends React.Component {
+class TheBoys extends React.Component {
   render() {
     return (
       <Layout
-        title="Ad Astra Digital | Website"
-        stylesheet="/css/ad-astra-digital.css"
+        title="The Boys: Super Destruction"
+        stylesheet="/css/the-boys.css"
         js=""
       >
         <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-md-6">
-              <h1>Ad Astra Digital</h1>
+              <h1>The Boys: Supe-R Destruction</h1>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ class PortfolioDesign extends React.Component {
             <div className="col-lg-5 left-col">
               <div className="project-image-container">
                 <img
-                  src="/images/ad-astra-website-capture-mockup.jpg"
+                  src="/images/TheBoys-game-thumbnail.png"
                   className="img-fluid"
                 />
               </div>
@@ -29,16 +29,25 @@ class PortfolioDesign extends React.Component {
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://www.adastradigital.co/"
+                  href="https://github.com/tytysam/TheBoys_Supe-r_Destruction"
+                >
+                  Git Repository
+                </a>
+                <a
+                  className="btn btn-sm btn-primary"
+                  target="_blank"
+                  href="https://tytysam.github.io/TheBoys_Supe-r_Destruction/"
                 >
                   Live Deployment
                 </a>
               </div>
             </div>
+
             <div className="col-lg-1"></div>
+
             <div className="col-lg-6">
               <div className="summary">
-                <h2>Wordpress-Based Web Development</h2>
+                <h2>Browser-Based JavaScript Game</h2>
                 <p className="label">Built with:</p>
                 <p className="subtitle">
                   <span className="highlight">
@@ -52,35 +61,28 @@ class PortfolioDesign extends React.Component {
                   <span className="highlight">
                     <i className="fab fa-css3"></i> CSS
                   </span>
-                  |
-                  <span className="highlight">
-                    <i className="fab fa-wordpress-simple"></i> WordPress
-                  </span>
+                </p>
+                <p>Browser-based game written purely in Vanilla JavaScript.</p>
+                <p>
+                  Built just-for-fun, inspired by games of my childhood like
+                  Final Fantasy and Pokemon.
                 </p>
                 <p>
-                  Simple, 5-page website designed to boost the branding and
-                  drive conversions for Ad Astra Digital, a boutique advertising
-                  agency in Denver, CO.
-                </p>
-                <p>
-                  Design-focused website meant to draw the user in, educate
-                  them, and drive the user to convert. Large focus on UX/UI when
-                  building this WordPress-based website; client goal was to have
-                  this website work in conjunction with paid media to increase
-                  conversion rates, boost conversion volume, and lower cost per
-                  conversion.
+                  <b>The Boys: Supe-r Destruction</b> is an RPG-style game with
+                  classic Final-Fantasy turn-based combat straight out of the
+                  '90s —— based on the titular comic book series and television
+                  show: <em>The Boys</em>. Follow a team of 8bit-ish rag-tag
+                  vigilantes as they combat super-powered individuals who abuse
+                  their powers. Battle to the top of Vought Tower and expose the
+                  truth about Vought, The Seven, and Compound-V!
                 </p>
                 <hr></hr>
                 <h5>Proudest Accomplishments:</h5>
                 <ul>
-                  <li>
-                    Fully-custom vector illustrations, design, and animations
-                  </li>
-                  <li>Responsive, flexible, Wordpress-based website</li>
-                  <li>
-                    Funnel-focused approach to maximizing user engagement and
-                    conversion
-                  </li>
+                  <li>Turn-based combat logic in Vanilla JavaScript</li>
+                  <li>Custom Pixel-Art and Aesthetic</li>
+                  <li>Unique and deep character/enemy design</li>
+                  <li>A game that I'm excited to keep honing</li>
                 </ul>
               </div>
             </div>
@@ -97,4 +99,4 @@ class PortfolioDesign extends React.Component {
   }
 }
 
-module.exports = PortfolioDesign;
+module.exports = TheBoys;

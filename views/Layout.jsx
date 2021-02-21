@@ -23,10 +23,7 @@ class Layout extends React.Component {
       ReactGA.pageview(window.location.pathname + window.location.search);
       console.log("custom hook test");
     };
-
-    // useEffect(() => {
-    //   digitalSignature();
-    // }, []);
+    digitalSignature();
 
     return (
       <html lang="en" dir="ltr">

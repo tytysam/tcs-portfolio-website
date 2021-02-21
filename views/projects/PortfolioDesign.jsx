@@ -1,19 +1,19 @@
 import React from "react";
-import Layout from "./Layout.jsx";
-import SayHi from "./SayHi.jsx";
+import Layout from "../Layout.jsx";
+import SayHi from "../SayHi.jsx";
 
-class ListenAlong extends React.Component {
+class PortfolioDesign extends React.Component {
   render() {
     return (
       <Layout
-        title="Listen Along | Spotify-Powered Listening Room"
-        stylesheet="/css/listen-along.css"
+        title="Portfolio Website Project for Tyler C. Samuelson"
+        stylesheet="/css/portfolio-design-project.css"
         js=""
       >
         <div className="container fade-in">
           <div className="row justify-content-center">
-            <div className="col-md-8">
-              <h1>Listen Along</h1>
+            <div className="col-md-6">
+              <h1>This Portfolio Website</h1>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ class ListenAlong extends React.Component {
             <div className="col-lg-5 left-col">
               <div className="project-image-container">
                 <img
-                  src="/images/listen-along_project-mockup.jpg"
+                  src="/images/portfolio-website-capture-mockup.jpg"
                   className="img-fluid"
                 />
               </div>
@@ -29,14 +29,14 @@ class ListenAlong extends React.Component {
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://github.com/tytysam/spotify-listen-along-nextjs"
+                  href="https://github.com/tytysam/tcs-portfolio-website"
                 >
                   Git Repository
                 </a>
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://listen-along-spotify-next-app.herokuapp.com/"
+                  href="http://www.tylercsamuelson.com/"
                 >
                   Live Deployment
                 </a>
@@ -45,7 +45,7 @@ class ListenAlong extends React.Component {
             <div className="col-lg-1"></div>
             <div className="col-lg-6">
               <div className="summary">
-                <h2>Spotify-Powered Listening Room</h2>
+                <h2>Mobile-First Web Design</h2>
                 <p className="label">Built with:</p>
                 <p className="subtitle">
                   <span className="highlight">
@@ -57,7 +57,7 @@ class ListenAlong extends React.Component {
                   </span>
                   |
                   <span className="highlight">
-                    <i className="fab fa-react"></i> Next.js
+                    <i className="fab fa-css3"></i> CSS
                   </span>
                   |
                   <span className="highlight">
@@ -67,45 +67,33 @@ class ListenAlong extends React.Component {
                   <span className="highlight">
                     <i className="fab fa-node-js"></i> Node.js
                   </span>
-                  |<span className="highlight">Redux</span>|
+                  |
                   <span className="highlight">
-                    <i class="fas fa-plug"></i> Socket.io
+                    <i className="fab fa-node-js"></i> Express.js
                   </span>
+                  |<span className="highlight">MongoDB</span>
                 </p>
                 <p>
-                  Web application built with Next.js and Spotify's Web API +
-                  Connect Endpoints.
+                  Fully-responsive CRUD application, built-from-scratch on top
+                  of Bootstrap.
                 </p>
                 <p>
-                  Listen Along brings people together in a listening room where
-                  a shared queue can be added to and edited by anyone present in
-                  the room. Vote songs up the queue and jam synchronously
-                  together via Spotify—even when you can't be together.
-                </p>
-                <p>
-                  Listening rooms present intimate opportunities to share and
-                  experience music with your friends. Global pandemics make the
-                  collective experience of a concert near impossible. That
-                  shouldn't stop us from connecting over music.
+                  Connected to MongoDB, which handles the server-side rendering
+                  of my blog content. This site was created with a particular
+                  focus on responsiveness — my layouts will work on any device,
+                  big or small. My human-centric design approach facilitates
+                  intuitive UX. I love to make my pages come to life while still
+                  ensuring fast load times and lag-free interactions.
                 </p>
                 <hr></hr>
                 <h5>Proudest Accomplishments:</h5>
                 <ul>
                   <li>
-                    Web socket integration that allows multiple users to
-                    pause/play, add music to the queue, and listen to the queue
-                    synchronously, across devices
+                    Fully-responsive site custom-developed on top of Bootstrap
                   </li>
-                  <li>Global state management with Redux</li>
-                  <li>
-                    Multi-language support for my friends not in the United
-                    States (currently supports: English, French, Swedish,
-                    Spanish)
-                  </li>
-                  <li>
-                    Next.js enabled Server Side Rendering and made accessing
-                    localStorage + fetch possible
-                  </li>
+                  <li>Custom Design, Animations, and Vector Graphics</li>
+                  <li>Full-stack CRUD application that makes use of REST</li>
+                  <li>Flexible, reusable component-based design</li>
                 </ul>
               </div>
             </div>
@@ -122,4 +110,4 @@ class ListenAlong extends React.Component {
   }
 }
 
-module.exports = ListenAlong;
+module.exports = PortfolioDesign;

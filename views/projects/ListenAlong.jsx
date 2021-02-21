@@ -1,19 +1,19 @@
 import React from "react";
-import Layout from "./Layout.jsx";
-import SayHi from "./SayHi.jsx";
+import Layout from "../Layout.jsx";
+import SayHi from "../SayHi.jsx";
 
-class PortfolioDesign extends React.Component {
+class ListenAlong extends React.Component {
   render() {
     return (
       <Layout
-        title="Portfolio Website Project for Tyler C. Samuelson"
-        stylesheet="/css/portfolio-design-project.css"
+        title="Listen Along | Spotify-Powered Listening Room"
+        stylesheet="/css/listen-along.css"
         js=""
       >
         <div className="container fade-in">
           <div className="row justify-content-center">
-            <div className="col-md-6">
-              <h1>This Portfolio Website</h1>
+            <div className="col-md-8">
+              <h1>Listen Along</h1>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ class PortfolioDesign extends React.Component {
             <div className="col-lg-5 left-col">
               <div className="project-image-container">
                 <img
-                  src="/images/portfolio-website-capture-mockup.jpg"
+                  src="/images/listen-along_project-mockup.jpg"
                   className="img-fluid"
                 />
               </div>
@@ -29,14 +29,14 @@ class PortfolioDesign extends React.Component {
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://github.com/tytysam/tcs-portfolio-website"
+                  href="https://github.com/tytysam/spotify-listen-along-nextjs"
                 >
                   Git Repository
                 </a>
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="http://www.tylercsamuelson.com/"
+                  href="https://listen-along-spotify-next-app.herokuapp.com/"
                 >
                   Live Deployment
                 </a>
@@ -45,7 +45,7 @@ class PortfolioDesign extends React.Component {
             <div className="col-lg-1"></div>
             <div className="col-lg-6">
               <div className="summary">
-                <h2>Mobile-First Web Design</h2>
+                <h2>Spotify-Powered Listening Room</h2>
                 <p className="label">Built with:</p>
                 <p className="subtitle">
                   <span className="highlight">
@@ -57,7 +57,7 @@ class PortfolioDesign extends React.Component {
                   </span>
                   |
                   <span className="highlight">
-                    <i className="fab fa-css3"></i> CSS
+                    <i className="fab fa-react"></i> Next.js
                   </span>
                   |
                   <span className="highlight">
@@ -67,33 +67,45 @@ class PortfolioDesign extends React.Component {
                   <span className="highlight">
                     <i className="fab fa-node-js"></i> Node.js
                   </span>
-                  |
+                  |<span className="highlight">Redux</span>|
                   <span className="highlight">
-                    <i className="fab fa-node-js"></i> Express.js
+                    <i class="fas fa-plug"></i> Socket.io
                   </span>
-                  |<span className="highlight">MongoDB</span>
                 </p>
                 <p>
-                  Fully-responsive CRUD application, built-from-scratch on top
-                  of Bootstrap.
+                  Web application built with Next.js and Spotify's Web API +
+                  Connect Endpoints.
                 </p>
                 <p>
-                  Connected to MongoDB, which handles the server-side rendering
-                  of my blog content. This site was created with a particular
-                  focus on responsiveness — my layouts will work on any device,
-                  big or small. My human-centric design approach facilitates
-                  intuitive UX. I love to make my pages come to life while still
-                  ensuring fast load times and lag-free interactions.
+                  Listen Along brings people together in a listening room where
+                  a shared queue can be added to and edited by anyone present in
+                  the room. Vote songs up the queue and jam synchronously
+                  together via Spotify—even when you can't be together.
+                </p>
+                <p>
+                  Listening rooms present intimate opportunities to share and
+                  experience music with your friends. Global pandemics make the
+                  collective experience of a concert near impossible. That
+                  shouldn't stop us from connecting over music.
                 </p>
                 <hr></hr>
                 <h5>Proudest Accomplishments:</h5>
                 <ul>
                   <li>
-                    Fully-responsive site custom-developed on top of Bootstrap
+                    Web socket integration that allows multiple users to
+                    pause/play, add music to the queue, and listen to the queue
+                    synchronously, across devices
                   </li>
-                  <li>Custom Design, Animations, and Vector Graphics</li>
-                  <li>Full-stack CRUD application that makes use of REST</li>
-                  <li>Flexible, reusable component-based design</li>
+                  <li>Global state management with Redux</li>
+                  <li>
+                    Multi-language support for my friends not in the United
+                    States (currently supports: English, French, Swedish,
+                    Spanish)
+                  </li>
+                  <li>
+                    Next.js enabled Server Side Rendering and made accessing
+                    localStorage + fetch possible
+                  </li>
                 </ul>
               </div>
             </div>
@@ -110,4 +122,4 @@ class PortfolioDesign extends React.Component {
   }
 }
 
-module.exports = PortfolioDesign;
+module.exports = ListenAlong;
