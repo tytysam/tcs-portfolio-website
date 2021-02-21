@@ -5,42 +5,132 @@ class RecentProjects extends React.Component {
     return (
       <div className="container">
         <div className="row justify-content-center ">
-          <div className="col-md-12 currently-section-container">
-            <h1 className="currently-header">Recent Work.</h1>
-            <div className="currently-section-contents row">
-              <div className="col-sm-3">
-                <h2>Listening:</h2>
-                <a
-                  href="https://open.spotify.com/playlist/26hrnPQ8TPyvjruPmwGcJz?si=t0JOz5D2Q3yXBPkLux8A2w"
-                  target="_blank"
-                >
-                  <img
-                    src="/images/muzik-mundaez-cover-art.jpg"
-                    className="image-icon img-fluid"
-                  />
-                </a>
-                <h4>Muzik Mundaez</h4>
-                <h5>My go-to playlist. A little bit of everything.</h5>
+          <div className="col-lg-12 recent-projects-section-container">
+            <h1 className="recent-projects-header">Recent Work.</h1>
+            <div className="recent-projects-section-contents row">
+              <div className="col-md-4">
+                <div className="project-container">
+                  <a href="/projects/listen-along">
+                    <h2>Listen Along</h2>
+                  </a>
+                  <a href="/projects/listen-along">
+                    <img
+                      className="img-fluid"
+                      src="/images/listen-along_project-mockup.jpg"
+                    />
+                  </a>
+                  <p className="project-subtitle">
+                    Spotify-Powered Listening Room
+                  </p>
+                  <p className="project-highlight-container">
+                    <span className="project-highlight">
+                      <i className="fab fa-js"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-react"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-bootstrap"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-node-js"></i>
+                    </span>
+                  </p>
+                  <a
+                    className="btn btn-sm btn-primary"
+                    href="/projects/listen-along"
+                    id="see-project-btn"
+                  >
+                    Project Details
+                  </a>
+                </div>
               </div>
-              <div className="col-sm-3 currently-item">
-                <h2>Reading:</h2>
-                <img
-                  src="/images/klosterman-chuck_but-what-if-were-wrong.jpg"
-                  className="image-icon img-fluid"
-                />
-                <h4>But What If We're Wrong</h4>
-                <h5>
-                  <span>By: </span>Chuck Klosterman
-                </h5>
+              <div className="col-md-4">
+                <div className="project-container">
+                  <a href="/projects/the-herbery">
+                    <h2>The Herbery</h2>
+                  </a>
+                  <a href="/projects/the-herbery">
+                    <img
+                      className="img-fluid"
+                      src="/images/the-herbery_project-mockup.jpg"
+                    />
+                  </a>
+                  <p className="project-subtitle">
+                    Modern E-Commerce Plant Store
+                  </p>
+                  <p className="project-highlight-container">
+                    <span className="project-highlight">
+                      <i className="fab fa-js"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-react"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-cc-stripe"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-css3"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-node-js"></i>
+                    </span>
+                  </p>
+                  <a
+                    className="btn btn-sm btn-primary"
+                    href="/projects/the-herbery"
+                    id="see-project-btn"
+                  >
+                    Project Details
+                  </a>
+                </div>
               </div>
-              <div className="col-sm-3 currently-item">
-                <h2>Playing:</h2>
-                <img
-                  src="/images/star-renegades.jpg"
-                  className="image-icon img-fluid"
-                />
-                <h4>Star Renegades</h4>
-                <h5>Roguelike. Super strategic. Big fun. Much recommend.</h5>
+              <div className="col-md-4">
+                <div className="project-container">
+                  <a href="/projects/listen-along">
+                    <h2>Listen Along</h2>
+                  </a>
+                  <a href="/projects/listen-along">
+                    <img
+                      className="img-fluid"
+                      src="/images/listen-along_project-mockup.jpg"
+                    />
+                  </a>
+                  <p className="project-subtitle">
+                    Spotify-Powered Listening Room
+                  </p>
+                  <p className="project-highlight-container">
+                    <span className="project-highlight">
+                      <i className="fab fa-js"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-react"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-bootstrap"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
+                      <i className="fab fa-node-js"></i>
+                    </span>
+                  </p>
+                  <a
+                    className="btn btn-sm btn-primary"
+                    href="/projects/listen-along"
+                    id="see-project-btn"
+                  >
+                    Project Details
+                  </a>
+                </div>
               </div>
             </div>
           </div>

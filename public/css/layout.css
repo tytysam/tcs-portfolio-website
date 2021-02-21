@@ -52,14 +52,11 @@ body {
 /*    RECENT PROJECTS SECTIONS       */
 /* ///////////////////////////////// */
 
-.currently-section-container {
-  /* border: 1px solid var(--primaryDark); */
-  border-radius: 10px;
-  /* height: 550px; */
+.recent-projects-section-container {
   height: 70vh;
 }
 
-.currently-header {
+.recent-projects-header {
   font-family: lust-display, serif;
   font-size: 60px;
   font-weight: 400;
@@ -67,187 +64,123 @@ body {
 
   margin-top: -45px;
   margin-bottom: 0px;
+
+  background: url("/images/wave-design-yellow.svg");
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat-x;
+  background-size: 20px 10px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+
+  animation-play-state: play;
+
+  max-width: 450px;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
 }
 
-.currently-section-contents {
+.recent-projects-section-contents {
   justify-content: space-between;
   text-align: center;
 
+  /* Spacing between header and contents below  */
   margin: 50px 0px;
 }
 
-.currently-section-contents h2 {
-  font-family: montserrat, sans-serif;
-  font-size: 32px;
-  font-weight: 200;
-  font-style: normal;
-
+.easy-center-align-container {
+  margin-top: 0;
   text-align: center;
 }
 
-.currently-section-contents img {
-  min-width: 100px;
-  max-height: 250px;
+.project-container {
+  border: 1px solid var(--primaryColorDark);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 75px;
+  margin-bottom: 50px;
 
-  border-radius: 5px;
+  width: 100%;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-  margin-top: 20px;
-  margin-bottom: 30px;
-
-  transition: ease-in 100ms;
+  transition: ease-in 300ms;
 }
 
-.currently-section-contents img:hover {
-  box-shadow: 3px 3px 15px var(--boxShadowColor);
-  transition: ease-in 100ms;
+.project-container:hover {
+  box-shadow: 5px 5px 15px var(--boxShadowColor);
+  transition: ease-in 300ms;
 }
 
-.currently-section-contents h4 {
-  font-family: montserrat, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  font-style: normal;
+.project-container img {
+  height: auto;
 
-  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 25px;
 }
 
-.currently-section-contents h5 {
-  font-family: montserrat, sans-serif;
-  font-size: 16px;
-  font-weight: 200;
-  font-style: normal;
-
-  text-align: center;
+.project-container a {
+  color: var(--primaryColorDark);
 }
 
-.currently-section-contents h5 span {
+.project-container a:hover {
+  color: var(--primaryColorDark);
+  text-decoration: none;
+}
+
+.project-container h2 {
+  margin-top: -46px;
+
+  margin-bottom: 10px;
+
+  font-family: lust-display, serif;
+  font-size: 50px;
   font-weight: 400;
+  font-style: normal;
+  text-align: center;
 }
 
-/* ============================================================================================= */
-/* ============================================================================================= */
-/* ============================================================================================= */
-/* ============================================================================================= */
-/* ============================================================================================= */
-/* ============================================================================================= */
-
-/* /////////////////// */
-/*    MEDIA QUERIES    */
-/* /////////////////// */
-
-/* Extra small devices (portrait phones, less than 576px) */
-/* ------------------------------------------------------ */
-@media (max-width: 575.98px) {
-  .container {
-    min-width: 375px;
-  }
-  .page-header {
-    margin-bottom: 25px;
-    padding-bottom: 20px;
-    min-width: 375px;
-
-    padding-bottom: 5px;
-    background: url("/images/wave-design-yellow.svg");
-    background-repeat: repeat;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-size: auto auto;
-    background-repeat: repeat-x;
-    background-size: 20px 10px;
-    animation: move 15s linear infinite;
-    -webkit-animation: move 15s linear infinite;
-
-    /* animation-play-state: paused; */
-    animation-play-state: running;
-
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-  }
-
-  @-webkit-keyframes move {
-    from {
-      background-position: 20px 75px;
-    }
-    to {
-      background-position: 500px 75px;
-    }
-  }
-  @keyframes move {
-    from {
-      background-position: 20px 75px;
-    }
-    to {
-      background-position: 500px 75px;
-    }
-  }
-  .about-me {
-    width: 100%;
-    height: 450px;
-    min-width: 75%;
-    background-image: url("/images/TCS-coffee-shop.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 15px;
-
-    border-radius: 8px;
-  }
-  .self-summary-header {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 28px;
-  }
-  .subtitle {
-    font-size: 13px;
-    font-weight: 300;
-    text-align: center;
-  }
-  .self-summary {
-    margin: 5px 10px;
-  }
-  .signature {
-    text-align: center;
-  }
-  h5 {
-    text-align: center;
-  }
-  #spacer-div {
-    height: 15vh;
-  }
-
-  .currently-section-container {
-    height: 100%;
-  }
-  .currently-header {
-    font-size: 50px;
-    text-align: center;
-  }
-  .currently-item {
-    margin-top: 50px;
-  }
-  .currently-section-contents h2 {
-    font-family: montserrat, sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    font-style: normal;
-
-    text-align: center;
-  }
+.project-subtitle {
+  margin-top: 10px;
+  font-weight: 200;
+  font-style: italic;
 }
 
-/* Small devices (landscape phones, less than 768px)      */
-/* ------------------------------------------------------ */
-@media (max-width: 767.98px) {
+.project-highlight {
+  padding: 5px;
+  transition: ease-in 200ms;
 }
 
-/* Medium devices (tablets, less than 992px)              */
-/* ------------------------------------------------------ */
-@media (max-width: 991.98px) {
+.project-highlight:hover {
+  background-color: var(--onHoverHighlightLight);
+  transition: ease-in 200ms;
 }
 
-/* Large devices (desktops, less than 1200px)             */
-/* ------------------------------------------------------ */
-@media (max-width: 1199.98px) {
+.project-highlight-container {
+  min-width: 200px;
+}
+
+#see-project-btn {
+  box-shadow: none !important;
+
+  font-family: lust-display, serif;
+  letter-spacing: 2px;
+  color: var(--primaryColorDark);
+  margin: 20px 15px;
+  padding: 15px;
+  border: 1px solid var(--primaryColorDark);
+  background-color: transparent;
+}
+
+#see-project-btn:hover {
+  color: var(--primaryColorLight);
+  margin: 20px 15px;
+  padding: 15px;
+  border: 1px solid var(--primaryColorDark);
+  background-color: var(--primaryColorDark);
 }
 
 /* ============================================================================================= */
@@ -437,6 +370,43 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 /* ------------------------------------------------------ */
 @media (max-width: 575.98px) {
+  .container {
+    /* padding: 0;
+    margin: 0; */
+    min-width: 350px;
+  }
+
+  .recent-projects-section-container {
+    min-width: 350px;
+  }
+
+  .project-subtitle {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .recent-projects-header {
+    font-size: 45px;
+    text-align: center;
+
+    background: url("/images/wave-design-yellow.svg");
+    background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat-x;
+    background-size: 20px 105px;
+    animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+
+    animation-play-state: play;
+
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+
   .inner-text-container hr {
     margin-bottom: 50px;
   }
@@ -463,6 +433,21 @@ body {
 /* Small devices (landscape phones, less than 768px)      */
 /* ------------------------------------------------------ */
 @media (max-width: 767.98px) {
+  .recent-projects-section-container {
+    height: 100%;
+  }
+  .recent-projects-header {
+  }
+  .project-container {
+    margin-top: 25px;
+    /* transition: ease-in 300ms; */
+  }
+
+  .project-container h2 {
+    margin-top: -40px;
+    font-size: 40px;
+    font-weight: 400;
+  }
 }
 
 /* Medium devices (tablets, less than 992px)              */
