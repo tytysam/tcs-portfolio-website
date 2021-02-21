@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "./Layout.jsx";
 import CurrentlySection from "./flex/CurrentlySection.jsx";
+import RecentProjects from "./flex/RecentProjects.jsx";
 import SayHi from "./flex/SayHi.jsx";
 
 class About extends React.Component {
@@ -100,6 +101,8 @@ class About extends React.Component {
         </div>
         <div id="spacer-div"></div>
         <CurrentlySection />
+        <div id="spacer-div"></div>
+        <RecentProjects />
         <div id="spacer-div"></div>
         <SayHi />
       </Layout>

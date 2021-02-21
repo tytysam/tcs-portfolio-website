@@ -54,6 +54,31 @@ h1 {
   height: 30vh;
 }
 
+.recent-projects-header {
+  font-family: lust-display, serif;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-top: -45px;
+  margin-bottom: 0px;
+
+  background: url("/images/wave-design-yellow.svg");
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat-x;
+  background-size: 20px 85px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+
+  animation-play-state: play;
+
+  max-width: 450px;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
 /* ============================================================================================= */
 /* ============================================================================================= */
 /* ============================================================================================= */
@@ -70,6 +95,26 @@ h1 {
 @media (max-width: 575.98px) {
   .container {
     min-width: 375px;
+  }
+  .recent-projects-header {
+    font-size: 45px;
+    text-align: center;
+
+    background: url("/images/wave-design-yellow.svg");
+    background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat-x;
+    background-size: 20px 165px;
+    animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+
+    animation-play-state: play;
+
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
   }
   #spacer-div {
     height: 20vh;
