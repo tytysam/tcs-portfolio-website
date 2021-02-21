@@ -6,25 +6,22 @@ import digitalSignature from "../extra-goodies/digitalSignature.js";
 const useIsSsr = () => {
   const [isSsr, setIsSsr] = useState(true);
 
-  useEffect(() => {
-    setIsSsr(false);
-  }, []);
-
   return isSsr;
 };
 
 class Layout extends React.Component {
-  render() {
-    const injectGA = () => {
-      const isSsr = useIsSsr();
-      if (isSsr) return null;
-
-      ReactGA.initialize("G-YTH8LT6EPD");
-      ReactGA.pageview(window.location.pathname + window.location.search);
-      console.log("custom hook test");
-    };
+  constructor(props) {
+    super(props);
+    ReactGA.initialize("G-YTH8LT6EPD");
+    console.log("custom hook test");
     digitalSignature();
+  }
 
+  componentDidMount() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
+
+  render() {
     return (
       <html lang="en" dir="ltr">
         <head>
