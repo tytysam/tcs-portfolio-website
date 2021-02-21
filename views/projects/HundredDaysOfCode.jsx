@@ -8,7 +8,7 @@ class HundredDaysOfCode extends React.Component {
     return (
       <Layout
         title="Tyler's 100 Days of Code"
-        stylesheet="/css/hundred-days-of-code.css"
+        stylesheet="/css/projects/hundred-days-of-code.css"
         js=""
       >
         <div className="container fade-in">

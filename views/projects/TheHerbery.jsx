@@ -8,7 +8,7 @@ class TheHerbery extends React.Component {
     return (
       <Layout
         title="The Herbery | E-Commerce Plants Storefront"
-        stylesheet="/css/the-herbery.css"
+        stylesheet="/css/projects/the-herbery.css"
         js=""
       >
         <div className="container fade-in">

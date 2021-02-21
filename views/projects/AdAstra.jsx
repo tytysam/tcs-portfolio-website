@@ -8,7 +8,7 @@ class PortfolioDesign extends React.Component {
     return (
       <Layout
         title="Ad Astra Digital | Website"
-        stylesheet="/css/ad-astra-digital.css"
+        stylesheet="/css/projects/ad-astra-digital.css"
         js=""
       >
         <div className="container fade-in">

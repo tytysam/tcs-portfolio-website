@@ -8,7 +8,7 @@ class TheBoys extends React.Component {
     return (
       <Layout
         title="The Boys: Super Destruction"
-        stylesheet="/css/the-boys.css"
+        stylesheet="/css/projects/the-boys.css"
         js=""
       >
         <div className="container fade-in">

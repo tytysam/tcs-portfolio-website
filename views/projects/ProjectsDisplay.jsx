@@ -6,7 +6,11 @@ import SayHi from "../flex/SayHi.jsx";
 class ProjectsDisplay extends React.Component {
   render() {
     return (
-      <Layout title="My Work" stylesheet="/css/projects-display.css" js="">
+      <Layout
+        title="My Work"
+        stylesheet="/css/projects/projects-display.css"
+        js=""
+      >
         <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-md-6 page-header">

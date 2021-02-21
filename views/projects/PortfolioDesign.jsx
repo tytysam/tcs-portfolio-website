@@ -8,7 +8,7 @@ class PortfolioDesign extends React.Component {
     return (
       <Layout
         title="Portfolio Website Project for Tyler C. Samuelson"
-        stylesheet="/css/portfolio-design-project.css"
+        stylesheet="/css/projects/portfolio-design-project.css"
         js=""
       >
         <div className="container fade-in">

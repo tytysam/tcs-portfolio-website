@@ -8,7 +8,7 @@ class ListenAlong extends React.Component {
     return (
       <Layout
         title="Listen Along | Spotify-Powered Listening Room"
-        stylesheet="/css/listen-along.css"
+        stylesheet="/css/projects/listen-along.css"
         js=""
       >
         <div className="container fade-in">

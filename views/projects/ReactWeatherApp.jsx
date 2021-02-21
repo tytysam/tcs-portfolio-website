@@ -8,7 +8,7 @@ class ReactWeatherApp extends React.Component {
     return (
       <Layout
         title="OpenWeather-Powered Weather App"
-        stylesheet="/css/react-weather-app.css"
+        stylesheet="/css/projects/react-weather-app.css"
         js=""
       >
         <div className="container fade-in">
