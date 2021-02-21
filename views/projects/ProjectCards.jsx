@@ -121,9 +121,7 @@ class ProjectCards extends React.Component {
                   src="/images/hundred-days-of-code_mockup.jpg"
                 />
               </a>
-              <p className="subtitle">
-                Daily Progress Logger Built with Gatsby
-              </p>
+              <p className="subtitle">Static Site with Blogging Capabilities</p>
               <p>
                 <span className="highlight">
                   <i className="fab fa-js"></i> JavaScript

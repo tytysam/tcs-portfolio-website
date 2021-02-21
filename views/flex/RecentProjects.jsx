@@ -21,7 +21,7 @@ class RecentProjects extends React.Component {
                     />
                   </a>
                   <p className="project-subtitle">
-                    Daily Progress Logger Built with Gatsby
+                    Static Site with Blogging Capabilities
                   </p>
                   <p className="project-highlight-container">
                     <span className="project-highlight">

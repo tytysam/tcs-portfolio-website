@@ -46,7 +46,7 @@ class HundredDaysOfCode extends React.Component {
             <div className="col-lg-1"></div>
             <div className="col-lg-6">
               <div className="summary">
-                <h2>Daily Progress Logger Built with Gatsby</h2>
+                <h2>Static Site with Blogging Capabilities</h2>
                 <p className="label">Built with:</p>
                 <p className="subtitle">
                   <span className="highlight">
