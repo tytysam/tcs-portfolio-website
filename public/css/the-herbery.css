@@ -146,6 +146,25 @@ h1 {
   -webkit-text-decoration-skip: objects;
 }
 
+.email-prompt-text {
+  /* color: var(--accentColorGreen); */
+
+  background: url("/images/wave-design-yellow.svg");
+  background-repeat: repeat;
+  background-position-x: 20%;
+  background-position-y: 0%;
+  background-repeat: repeat-x;
+  background-size: 20px 130px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+
+  animation-play-state: paused;
+
+  width: 250px;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
 #spacer-div {
   height: 30vh;
 }
@@ -187,6 +206,25 @@ h1 {
 
     max-width: 200px;
     margin: 0 auto;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+
+  .email-prompt-text {
+    /* color: var(--accentColorGreen); */
+
+    background: url("/images/wave-design-yellow.svg");
+    background-repeat: repeat;
+    background-position-x: 20%;
+    background-position-y: 0%;
+    background-repeat: repeat-x;
+    background-size: 20px 105px;
+    animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+
+    animation-play-state: paused;
+
+    width: 250px;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
   }
