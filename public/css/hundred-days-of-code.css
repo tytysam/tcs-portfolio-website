@@ -116,6 +116,34 @@ h1 {
   transition: ease-in 200ms;
 }
 
+.external-link {
+  color: var(--accentColorGreen);
+  padding-bottom: 5px;
+
+  background: url("/images/wave-design-green.svg");
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 20px 10px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+
+  animation-play-state: paused;
+  /* animation-play-state: running; */
+
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.external-link:hover {
+  animation-play-state: running;
+  color: var(--accentColorGreen);
+  text-decoration: none;
+}
+
 .label {
   margin-bottom: 0;
   font-weight: 100;
@@ -143,7 +171,8 @@ h1 {
   .container {
     min-width: 375px;
   }
-  h1 {
+  .external-link {
+    animation-play-state: running;
   }
   #spacer-div {
     height: 20vh;

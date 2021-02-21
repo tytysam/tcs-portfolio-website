@@ -21,7 +21,7 @@ class HundredDaysOfCode extends React.Component {
             <div className="col-lg-5 left-col">
               <div className="project-image-container">
                 <img
-                  src="/images/the-herbery_project-mockup.jpg"
+                  src="/images/hundred-days-of-code_mockup.jpg"
                   className="img-fluid"
                 />
               </div>
@@ -29,14 +29,14 @@ class HundredDaysOfCode extends React.Component {
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://github.com/tytysam/the_herbery_ecommerce_storefront"
+                  href="https://github.com/tytysam/100-days-of-code-log"
                 >
                   Git Repository
                 </a>
                 <a
                   className="btn btn-sm btn-primary"
                   target="_blank"
-                  href="https://theherbery.netlify.app/"
+                  href="https://tcs-100-days-of-code.netlify.app/"
                 >
                   Live Deployment
                 </a>
@@ -51,51 +51,56 @@ class HundredDaysOfCode extends React.Component {
                   <span className="highlight">
                     <i className="fab fa-js"></i> JavaScript
                   </span>
-                  |
-                  <span className="highlight">
-                    <i className="fab fa-react"></i> React.js
-                  </span>
-                  |
-                  <span className="highlight">
-                    <i class="fas fa-credit-card"></i> Commerce.js
-                  </span>
-                  <br />
-                  <span className="highlight">
-                    <i className="fab fa-node-js"></i> Node.js
-                  </span>
                   |<span className="highlight">Material UI</span>|
                   <span className="highlight">
-                    <i class="fab fa-cc-stripe"></i> Stripe
+                    <i className="fab fa-css3"></i> CSS
+                  </span>
+                  |
+                  <span className="highlight">
+                    <i className="fab fa-react"></i> Gatsby
                   </span>
                 </p>
                 <p>
-                  The Herbery is a (fake) plant store made for people who live
-                  by the mantra: Plants Make People Happy.
+                  This Gatsby site is part of my{" "}
+                  <a
+                    className="external-link"
+                    href="https://www.100daysofcode.com/"
+                    target="_blank"
+                  >
+                    100 Days of Code
+                  </a>{" "}
+                  journey. For my first day of 100 Days of Code, I wanted to
+                  kick things off by building a place for all of my daily
+                  progress to live.
                 </p>
                 <p>
-                  The Herbery is a modern plant store built with React and a
-                  headless CMS.
+                  Thus, I built this "logger" website, with details about what I
+                  have worked on each day. Each day I will post updates here to
+                  keep myself motivated, accountable, and moving forward.
                 </p>
                 <p>
-                  Mobile-responsive and featuring a fully-functioning
-                  Stripe-powered checkout, this fake store is designed on top of
-                  Material UI.
+                  Lightning quick and fully responsive, this static site that I
+                  built with Gatsby features full pagination + integrated social
+                  shareability.
                 </p>
                 <hr></hr>
                 <h5>Proudest Accomplishments:</h5>
                 <ul>
                   <li>
-                    Modern, fully-responsive frontend built with React and
-                    Material UI. Highly customizable. Highly scalable. Highly
-                    flexible.
+                    100 Days straight! This was my first #100DaysOfCodeChallenge
+                    and I absolutely loved it.
                   </li>
                   <li>
-                    Headless CMS integration with Commerce.js that simplifies
-                    product, category, and store management for business owner
+                    The community around the #100DaysOfCodeChallenge is so
+                    positive and supportive, and I met some really incredibly
+                    people that truly wanted to help cultivate enthusiastic,
+                    ethical developers.
                   </li>
                   <li>
-                    Stripe checkout flow that can be implemented for any scale
-                    of e-commerce business
+                    This challenge helped me reinforce my love for React while
+                    giving me an excuse to spend hours-upon-hours reading
+                    documentation about any and every fascinating technology or
+                    library I could get my hands on.
                   </li>
                 </ul>
               </div>

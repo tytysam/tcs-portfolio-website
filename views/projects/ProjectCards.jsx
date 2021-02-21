@@ -5,6 +5,58 @@ class ProjectCards extends React.Component {
     return (
       <div className="container fade-in">
         <div className="row component-container justify-content-center p-lg-2">
+          {/* *** THE HERBERY E-COMMERCE STORE *** */}
+          <div className="col-lg-6 p-md-4">
+            <div className="project-container">
+              <a href="/projects/the-herbery">
+                <h2>The Herbery</h2>
+              </a>
+              <a href="/projects/the-herbery">
+                <img
+                  className="img-fluid"
+                  src="/images/the-herbery_project-mockup.jpg"
+                />
+              </a>
+              <p className="subtitle">Modern E-Commerce Plant Store</p>
+              <p>
+                <span className="highlight">
+                  <i className="fab fa-js"></i> JavaScript
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fab fa-react"></i> React.js
+                </span>
+                |
+                <span className="highlight">
+                  <i className="fas fa-credit-card"></i> Commerce.js
+                </span>
+                <br />
+                <div className="easy-center-align-container">
+                  <span className="highlight">
+                    <i className="fab fa-node-js"></i> Node.js
+                  </span>
+                  |<span className="highlight">Material UI</span>|
+                  <span className="highlight">
+                    <i className="fab fa-cc-stripe"></i> Stripe
+                  </span>
+                </div>
+              </p>
+              <a
+                className="btn btn-sm btn-primary"
+                href="/projects/the-herbery"
+                id="see-project-btn"
+              >
+                See Project Details
+              </a>
+              <p>
+                The Herbery is a modern plant store built with React and a
+                headless CMS. Mobile-responsive and featuring a
+                fully-functioning Stripe-powered checkout, this fake store is
+                designed on top of Material UI.
+              </p>
+            </div>
+          </div>
+
           {/* *** LISTEN ALONG APP *** */}
           <div className="col-lg-6 p-md-4">
             <div className="project-container">
@@ -57,54 +109,45 @@ class ProjectCards extends React.Component {
             </div>
           </div>
 
-          {/* *** THE HERBERY E-COMMERCE STORE *** */}
+          {/* *** 100 DAYS OF CODE *** */}
           <div className="col-lg-6 p-md-4">
             <div className="project-container">
-              <a href="/projects/the-herbery">
-                <h2>The Herbery</h2>
+              <a href="/projects/100-days-of-code">
+                <h2>100 Days of Code</h2>
               </a>
-              <a href="/projects/the-herbery">
+              <a href="/projects/100-days-of-code">
                 <img
                   className="img-fluid"
-                  src="/images/the-herbery_project-mockup.jpg"
+                  src="/images/hundred-days-of-code_mockup.jpg"
                 />
               </a>
-              <p className="subtitle">Modern E-Commerce Plant Store</p>
+              <p className="subtitle">Static Site Generated with Gatsby</p>
               <p>
                 <span className="highlight">
                   <i className="fab fa-js"></i> JavaScript
                 </span>
-                |
+                |<span className="highlight">Material UI</span>|
                 <span className="highlight">
-                  <i className="fab fa-react"></i> React.js
-                </span>
-                |
-                <span className="highlight">
-                  <i className="fas fa-credit-card"></i> Commerce.js
+                  <i className="fab fa-css3"></i> CSS
                 </span>
                 <br />
                 <div className="easy-center-align-container">
                   <span className="highlight">
-                    <i className="fab fa-node-js"></i> Node.js
-                  </span>
-                  |<span className="highlight">Material UI</span>|
-                  <span className="highlight">
-                    <i className="fab fa-cc-stripe"></i> Stripe
+                    <i className="fab fa-react"></i> Gatsby
                   </span>
                 </div>
               </p>
               <a
                 className="btn btn-sm btn-primary"
-                href="/projects/the-herbery"
+                href="/projects/100-days-of-code"
                 id="see-project-btn"
               >
                 See Project Details
               </a>
               <p>
-                The Herbery is a modern plant store built with React and a
-                headless CMS. Mobile-responsive and featuring a
-                fully-functioning Stripe-powered checkout, this fake store is
-                designed on top of Material UI.
+                Lightning quick and fully responsive, this static site built
+                with Gatsby features full pagination, integrated social
+                shareability, and a GraphQL-powered database.
               </p>
             </div>
           </div>
