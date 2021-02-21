@@ -56,10 +56,7 @@ class SayHi extends React.Component {
                 </div>
               </div>
               <div className="inner-image-container d-none d-lg-block col-5">
-                <img
-                  className="image-fluid"
-                  src="/images/TCS-MachuPicchu.jpg"
-                />
+                <img className="image-fluid" src="/images/TCS_2-8-21.jpg" />
               </div>
             </div>
           </div>
