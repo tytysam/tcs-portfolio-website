@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../Layout.jsx";
+import RecentProjects from "../flex/RecentProjects.jsx";
 import SayHi from "../flex/SayHi.jsx";
 
 class TheHerbery extends React.Component {
@@ -106,6 +107,8 @@ class TheHerbery extends React.Component {
             <div className="col-8"></div>
           </div>
         </div>
+        <div id="spacer-div"></div>
+        <RecentProjects />
         <div id="spacer-div"></div>
         <SayHi />
       </Layout>
