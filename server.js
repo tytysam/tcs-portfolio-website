@@ -122,13 +122,13 @@ app.get("/contact", (req, res) => {
 // INDEX | GET Request
 app.get("/blog", (req, res) => {
   BlogPosts.find({}, (err, allBlogPosts) => {
-    err ? res.send(err) : res.render("Index", { posts: allBlogPosts });
+    err ? res.send(err) : res.render("blog/Index", { posts: allBlogPosts });
   });
 });
 
 // NEW | GET Request
 app.get("/blog/new", (req, res) => {
-  res.render("New");
+  res.render("blog/New");
 });
 
 // DESTROY | DELETE Request
@@ -160,20 +160,20 @@ app.post("/blog", (req, res) => {
 // EDIT | GET Request
 app.get("/blog/:id/edit", (req, res) => {
   BlogPosts.findById(req.params.id, (err, foundBlogPost) => {
-    err ? res.send(err) : res.render("Edit", { post: foundBlogPost });
+    err ? res.send(err) : res.render("blog/Edit", { post: foundBlogPost });
   });
 });
 
 // SHOW | GET Request
 app.get("/blog/:id", (req, res) => {
   BlogPosts.findById(req.params.id, (err, foundBlogPost) => {
-    err ? res.send(err) : res.render("Show", { post: foundBlogPost });
+    err ? res.send(err) : res.render("blog/Show", { post: foundBlogPost });
   });
 });
 
 // 404: NOT FOUND
 app.get("*", (req, res) => {
-  res.render("NotFound");
+  res.render("flex/NotFound");
 });
 
 // =======================================

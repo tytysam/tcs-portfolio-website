@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "./Layout.jsx";
-import CurrentlySection from "./CurrentlySection.jsx";
-import SayHi from "./SayHi.jsx";
+import CurrentlySection from "./flex/CurrentlySection.jsx";
+import SayHi from "./flex/SayHi.jsx";
 
 class About extends React.Component {
   render() {

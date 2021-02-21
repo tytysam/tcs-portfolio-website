@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "./Layout.jsx";
-import SocialModal from "./SocialModal.jsx";
+import SocialModal from "./flex/SocialModal.jsx";
 
 class Contact extends React.Component {
   render() {

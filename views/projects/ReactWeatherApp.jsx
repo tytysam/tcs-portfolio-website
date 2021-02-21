@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../Layout.jsx";
-import SayHi from "../SayHi.jsx";
+import SayHi from "../flex/SayHi.jsx";
 
 class ReactWeatherApp extends React.Component {
   render() {

@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Layout.jsx";
 import ProjectCards from "./ProjectCards.jsx";
-import SayHi from "../SayHi.jsx";
+import SayHi from "../flex/SayHi.jsx";
 
 class ProjectsDisplay extends React.Component {
   render() {
