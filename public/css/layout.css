@@ -53,7 +53,7 @@ body {
 /* ///////////////////////////////// */
 
 .recent-projects-section-container {
-  height: 70vh;
+  height: 100%;
 }
 
 .recent-projects-header {
@@ -184,7 +184,7 @@ body {
 }
 
 .see-more-row {
-  margin-top: 75px;
+  margin-top: -100px;
 }
 
 .see-more-button-container {
@@ -446,7 +446,7 @@ body {
 /* ------------------------------------------------------ */
 @media (max-width: 767.98px) {
   .recent-projects-section-container {
-    height: 95%;
+    height: 100%;
   }
 
   .project-container {
@@ -468,7 +468,7 @@ body {
   }
 
   .see-more-row {
-    margin-top: -50px;
+    margin-top: -65px;
   }
 
   .see-more-button-container {
