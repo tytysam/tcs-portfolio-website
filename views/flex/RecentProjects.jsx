@@ -8,19 +8,20 @@ class RecentProjects extends React.Component {
           <div className="col-lg-12 recent-projects-section-container">
             <h1 className="recent-projects-header">Recent Work.</h1>
             <div className="recent-projects-section-contents row">
+              {/* *** 100 DAYS OF CODE *** */}
               <div className="col-md-4">
                 <div className="project-container">
-                  <a href="/projects/listen-along">
-                    <h2>Listen Along</h2>
+                  <a href="/projects/100-days-of-code">
+                    <h2>100 Days of Code</h2>
                   </a>
-                  <a href="/projects/listen-along">
+                  <a href="/projects/100-days-of-code">
                     <img
                       className="img-fluid"
-                      src="/images/listen-along_project-mockup.jpg"
+                      src="/images/hundred-days-of-code_mockup.jpg"
                     />
                   </a>
                   <p className="project-subtitle">
-                    Spotify-Powered Listening Room
+                    Daily Progress Logger Built with Gatsby
                   </p>
                   <p className="project-highlight-container">
                     <span className="project-highlight">
@@ -28,26 +29,24 @@ class RecentProjects extends React.Component {
                     </span>
                     |
                     <span className="project-highlight">
+                      <i className="fab fa-css3"></i>
+                    </span>
+                    |
+                    <span className="project-highlight">
                       <i className="fab fa-react"></i>
-                    </span>
-                    |
-                    <span className="project-highlight">
-                      <i className="fab fa-bootstrap"></i>
-                    </span>
-                    |
-                    <span className="project-highlight">
-                      <i className="fab fa-node-js"></i>
                     </span>
                   </p>
                   <a
                     className="btn btn-sm btn-primary"
-                    href="/projects/listen-along"
+                    href="/projects/100-days-of-code"
                     id="see-project-btn"
                   >
                     Project Details
                   </a>
                 </div>
               </div>
+
+              {/* *** THE HERBERY E-COMMERCE STORE *** */}
               <div className="col-md-4">
                 <div className="project-container">
                   <a href="/projects/the-herbery">
@@ -92,6 +91,8 @@ class RecentProjects extends React.Component {
                   </a>
                 </div>
               </div>
+
+              {/* *** LISTEN ALONG APP *** */}
               <div className="col-md-4">
                 <div className="project-container">
                   <a href="/projects/listen-along">
