@@ -436,8 +436,7 @@ body {
   .recent-projects-section-container {
     height: 100%;
   }
-  .recent-projects-header {
-  }
+
   .project-container {
     margin-top: 25px;
     /* transition: ease-in 300ms; */
@@ -447,6 +446,13 @@ body {
     margin-top: -40px;
     font-size: 40px;
     font-weight: 400;
+  }
+
+  .project-subtitle {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 200;
+    font-style: italic;
   }
 }
 
