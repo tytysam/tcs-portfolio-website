@@ -5,7 +5,7 @@ import SayHi from "../flex/SayHi.jsx";
 class Index extends React.Component {
   render() {
     return (
-      <Layout title="View Blog Posts" stylesheet="/css/index.css" js="">
+      <Layout title="View Blog Posts" stylesheet="/css/blog/index.css" js="">
         <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-md-6 page-header">

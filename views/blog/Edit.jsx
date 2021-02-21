@@ -5,7 +5,7 @@ class Edit extends React.Component {
   render() {
     const post = this.props.post;
     return (
-      <Layout title={`Edit ${post.name}`} stylesheet="/css/edit.css" js="">
+      <Layout title={`Edit ${post.name}`} stylesheet="/css/blog/edit.css" js="">
         <div className="container">
           <div className="row justify-content-center p-2">
             <div className="col-md-6">

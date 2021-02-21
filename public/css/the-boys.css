@@ -187,6 +187,10 @@
     min-width: 375px;
   }
 
+  .project-header {
+    font-size: 50px;
+  }
+
   .recent-projects-header {
     font-size: 45px;
     text-align: center;

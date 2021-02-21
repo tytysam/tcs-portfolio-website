@@ -7,7 +7,7 @@ class Show extends React.Component {
   render() {
     const post = this.props.post;
     return (
-      <Layout title={`${post.name}`} stylesheet="/css/show.css" js="">
+      <Layout title={`${post.name}`} stylesheet="/css/blog/show.css" js="">
         <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-md-6 header-content">

@@ -4,7 +4,7 @@ import Layout from "../Layout.jsx";
 class New extends React.Component {
   render() {
     return (
-      <Layout title="New Blog Post" stylesheet="/css/new.css" js="">
+      <Layout title="New Blog Post" stylesheet="/css/blog/new.css" js="">
         <div className="container">
           <div className="row justify-content-center p-2">
             <div className="col-md-6">
