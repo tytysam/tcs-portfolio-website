@@ -12,7 +12,7 @@ class RecentProjects extends React.Component {
               <div className="col-md-4">
                 <div className="project-container">
                   <a href="/projects/100-days-of-code">
-                    <h2>100 Days of Code</h2>
+                    <h2 style={{ minWidth: "240px" }}>100 Days of Code</h2>
                   </a>
                   <a href="/projects/100-days-of-code">
                     <img
@@ -134,6 +134,17 @@ class RecentProjects extends React.Component {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row see-more-row">
+          <div className="col-12 see-more-button-container">
+            <a
+              className="btn btn-sm btn-primary"
+              href="/projects"
+              id="see-project-btn"
+            >
+              See More...
+            </a>
           </div>
         </div>
       </div>
