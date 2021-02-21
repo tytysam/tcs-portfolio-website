@@ -195,6 +195,25 @@
   background-color: var(--primaryColorDark);
 }
 
+.email-prompt-text {
+  /* color: var(--accentColorGreen); */
+
+  background: url("/images/wave-design-yellow.svg");
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat-x;
+  background-size: 20px 50px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+
+  animation-play-state: paused;
+
+  width: 250px;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
 #spacer-div {
   height: 30vh;
 }
@@ -271,6 +290,26 @@
   .highlight {
     font-size: 12px;
   }
+
+  .email-prompt-text {
+    /* color: var(--accentColorGreen); */
+
+    background: url("/images/wave-design-yellow.svg");
+    background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat-x;
+    background-size: 20px 105px;
+    animation: move 15s linear infinite;
+    -webkit-animation: move 15s linear infinite;
+
+    animation-play-state: paused;
+
+    width: 250px;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+
   #spacer-div {
     height: 20vh;
   }

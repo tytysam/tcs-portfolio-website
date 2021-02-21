@@ -14,7 +14,7 @@ class HundredDaysOfCode extends React.Component {
         <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-md-6">
-              <h1>100 Days of Code</h1>
+              <h1 className="project-header">100 Days of Code</h1>
             </div>
           </div>
 

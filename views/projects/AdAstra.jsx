@@ -14,7 +14,7 @@ class PortfolioDesign extends React.Component {
         <div className="container fade-in">
           <div className="row justify-content-center">
             <div className="col-md-6">
-              <h1>Ad Astra Digital</h1>
+              <h1 className="project-header">Ad Astra Digital</h1>
             </div>
           </div>
 

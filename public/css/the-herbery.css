@@ -24,7 +24,7 @@
   }
 }
 
-h1 {
+.project-header {
   font-family: lust-display, serif;
   font-size: 60px;
   font-weight: 400;
@@ -185,8 +185,6 @@ h1 {
 @media (max-width: 575.98px) {
   .container {
     min-width: 375px;
-  }
-  h1 {
   }
 
   .recent-projects-header {
