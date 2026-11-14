@@ -8,7 +8,7 @@ class NotFound extends React.Component {
         <div className="container fade-in" id="content-container">
           <div className="row justify-content-center mt-5 p-3">
             <div className="col-md-6">
-              <img src="/images/Well-Shoot-404-Banner.svg" class="svg-text" />
+              <img src="/images/Well-Shoot-404-Banner.svg" className="svg-text" />
               <hr></hr>
             </div>
           </div>
