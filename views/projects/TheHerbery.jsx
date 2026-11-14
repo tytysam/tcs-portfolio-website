@@ -58,7 +58,7 @@ class TheHerbery extends React.Component {
                   </span>
                   |
                   <span className="highlight">
-                    <i class="fas fa-credit-card"></i> Commerce.js
+                    <i className="fas fa-credit-card"></i> Commerce.js
                   </span>
                   <br />
                   <span className="highlight">
@@ -66,7 +66,7 @@ class TheHerbery extends React.Component {
                   </span>
                   |<span className="highlight">Material UI</span>|
                   <span className="highlight">
-                    <i class="fab fa-cc-stripe"></i> Stripe
+                    <i className="fab fa-cc-stripe"></i> Stripe
                   </span>
                 </p>
                 <p>

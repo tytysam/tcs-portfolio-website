@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tcs-portfolio",
+  "compatibility_date": "2026-11-01",
+  // Assets-only Worker: dist/ is produced by `npm run build`.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

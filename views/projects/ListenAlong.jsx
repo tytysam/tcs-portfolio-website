@@ -70,7 +70,7 @@ class ListenAlong extends React.Component {
                   </span>
                   |<span className="highlight">Redux</span>|
                   <span className="highlight">
-                    <i class="fas fa-plug"></i> Socket.io
+                    <i className="fas fa-plug"></i> Socket.io
                   </span>
                 </p>
                 <p>

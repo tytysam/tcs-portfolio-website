@@ -1,16 +1,7 @@
-import React, { useEffect, useState } from "react";
-// import ReactGA from "react-ga";
-import window from "global";
-import digitalSignature from "../extra-goodies/digitalSignature.js";
+import React from "react";
+import digitalSignatureScript from "../extra-goodies/digitalSignature.js";
 
 class Layout extends React.Component {
-  constructor(props) {
-    super(props);
-    // ReactGA.initialize("G-YTH8LT6EPD");
-    // console.log("custom hook test");
-    digitalSignature();
-  }
-
   render() {
     return (
       <html lang="en" dir="ltr">
@@ -138,9 +129,6 @@ class Layout extends React.Component {
                 <a className="nav-item nav-link mx-5 p-2" href="/contact">
                   Contact
                 </a>
-                <a className="nav-item nav-link mx-5 p-2" href="/blog">
-                  Blog
-                </a>
                 <a className="nav-item nav-link mx-5 p-2" href="#tippity-top">
                   <i className="fas fa-arrow-up fa-sm"></i>
                 </a>
@@ -148,7 +136,8 @@ class Layout extends React.Component {
             </nav>
           </div>
 
-          <script src={this.props.js}></script>
+          {this.props.js ? <script src={this.props.js}></script> : null}
+          <script dangerouslySetInnerHTML={{ __html: digitalSignatureScript }} />
           {/* <--- Bootstrap Dependencies ---> */}
           <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

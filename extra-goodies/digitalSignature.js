@@ -10,8 +10,7 @@ let styles = [
   "border: 1px dashed #202020;",
 ].join(";");
 
-const digitalSignature = () => {
-  console.log(msg, styles);
-};
+// Inline <script> body, so the signature logs in the visitor's browser console.
+const digitalSignatureScript = `console.log(${JSON.stringify(msg)}, ${JSON.stringify(styles)});`;
 
-module.exports = digitalSignature;
+module.exports = digitalSignatureScript;
